@@ -19,6 +19,7 @@ Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
+Plugin 'terryma/vim-multiple-cursors'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'vim-airline/vim-airline'
 " Plugin 'vim-airline/vim-airline-themes'
@@ -106,9 +107,10 @@ colorscheme one
 " --------------------------------- Plugins ---------------------------------- "
 
 " vim-airline/vim-airline
+let g:airline_section_z = '%l:%c'
 let g:airline_powerline_fonts = 1
 let g:airline_theme = 'one'
-let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#enabled = 0
 
 " ctrlp/ctrlp.vim
 let g:ctrlp_map = '<c-p>'
@@ -145,6 +147,13 @@ nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
 nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
 nnoremap <silent> <C-ö> :TmuxNavigatePrevious<cr>
 
+" Multiple cursors
+let g:multi_cursor_use_default_mapping=0
+let g:multi_cursor_next_key='<C-m>'
+let g:multi_cursor_prev_key='<C-p>'
+let g:multi_cursor_skip_key='<C-x>'
+let g:multi_cursor_quit_key='<Esc>'
+
 " ---------------------------------- Leader ---------------------------------- "
 
 let mapleader=","
@@ -153,6 +162,9 @@ nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
 nmap <leader>ev :tabedit $MYVIMRC<cr>
 nmap <leader>et :tabedit ~/.tmux.conf<cr>
+
+" Find in files (type search term, change **, run the command and then :lw)
+nmap <leader>f :lvimgrep //gj **<Left><Left><Left><Left><Left><Left>
 
 " tpope/vim-fugitive
 nnoremap <leader>gs :Gstatus<cr>
@@ -163,7 +175,7 @@ nmap <leader>hn <Plug>GitGutterNextHunk
 nmap <leader>hp <Plug>GitGutterPrevHunk
 nmap <leader>hs <Plug>GitGutterStageHunk
 nmap <leader>hu <Plug>GitGutterUndoHunk
-nmap <leader>hp <Plug>GitGutterPreviewHunk
+nmap <leader>hv <Plug>GitGutterPreviewHunk
 
 " junegunn/goyo.vim
 nnoremap <leader>z :Goyo<cr>
