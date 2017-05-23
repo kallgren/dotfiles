@@ -57,6 +57,10 @@ set rnu
 set shiftwidth=4
 set tabstop=4
 
+" Split below and to the right
+set splitbelow
+set splitright
+
 " Show tab indentations and trailing spaces
 set list
 set listchars=tab:\|\ ,trail:•
@@ -87,6 +91,12 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " Enable mouse for focusing, selecting and scrolling
 " (hold alt/option in iTerm2 to disable temporarily)
 set mouse=a
+
+augroup cursorline
+	autocmd!
+	autocmd VimEnter,WinEnter,BufWinEnter * setlocal cursorline
+	autocmd WinLeave * setlocal nocursorline
+augroup END
 
 " ---------------------------------- Colors ---------------------------------- "
 
