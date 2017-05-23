@@ -77,8 +77,10 @@ set autoread
 " Show current command
 set showcmd
 
-" Highlight current line and column 80
+" Highlight current line
 set cursorline
+
+" Highlight column 80
 set colorcolumn=80
 
 " Centralize swapfiles and backups (Make sure the directories exist!)
@@ -92,6 +94,7 @@ set runtimepath^=~/.vim/bundle/ctrlp.vim
 " (hold alt/option in iTerm2 to disable temporarily)
 set mouse=a
 
+" Only show cursorline in current window
 augroup cursorline
 	autocmd!
 	autocmd VimEnter,WinEnter,BufWinEnter * setlocal cursorline
