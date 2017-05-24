@@ -21,8 +21,6 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'vim-airline/vim-airline'
-" Plugin 'vim-airline/vim-airline-themes'
 Plugin 'rakr/vim-one'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
@@ -117,13 +115,48 @@ let &t_8b = "[48;2;%lu;%lu;%lum"
 set background=dark
 colorscheme one
 
-" --------------------------------- Plugins ---------------------------------- "
+" -------------------------------- Statusline -------------------------------- "
 
-" vim-airline/vim-airline
-let g:airline_section_z = '%l:%c'
-let g:airline_powerline_fonts = 1
-let g:airline_theme = 'one'
-let g:airline#extensions#tabline#enabled = 0
+" Returns current git branch (if the active file is in a git repository)
+function! GetGitBranch()
+	if exists('*fugitive#head')
+		let head = fugitive#head()
+
+		if empty(head) && exists('*fugitive#detect') && !exists('b:git_dir')
+			call fugitive#detect(getcwd())
+			let head = fugitive#head()
+		endif
+
+		if !empty(head)
+			return ' ' . head
+		endif
+	endif
+
+	return ''
+endfunction
+
+" Left
+set statusline=%<%f\ %{WebDevIconsGetFileTypeSymbol()}\  " Relative file path
+
+set statusline +=%h " Help buffer flag
+set statusline +=%w " Preview window flag
+set statusline +=%m " Modified flag
+set statusline +=%r " Readonly flag
+set statusline +=\  " Space
+
+" Space
+set statusline +=%=
+
+" Right
+set statusline +=%{GetGitBranch()}\  " Git branch
+set statusline +=%9.(%l,%c%) " Line and column number (9 char width)
+
+" Ruler (for when statusline is hidden)
+set rulerformat=%= " Align right
+set rulerformat +=%{GetGitBranch()}\  " Git branch
+set rulerformat +=%l,%c " Line and column number
+
+" --------------------------------- Plugins ---------------------------------- "
 
 " ctrlp/ctrlp.vim
 let g:ctrlp_map = '<c-p>'
@@ -173,7 +206,11 @@ let mapleader=","
 
 nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
-nmap <leader>ev :tabedit $MYVIMRC<cr>
+
+" Open .vimrc (Bypass symlink to make fugitive work properly)
+nmap <leader>ev :execute 'tabedit ' . resolve(expand($MYVIMRC))<cr>
+
+" Open .tmux.conf
 nmap <leader>et :tabedit ~/.tmux.conf<cr>
 
 " Find in files (type search term, change **, run the command and then :lw)
@@ -228,5 +265,5 @@ xmap ah <Plug>GitGutterTextObjectOuterVisual
 
 augroup autosourcing
 	autocmd!
-	autocmd BufWritePost $MYVIMRC source $MYVIMRC
+	autocmd BufWritePost *vimrc source $MYVIMRC
 augroup END
