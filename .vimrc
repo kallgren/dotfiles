@@ -63,8 +63,11 @@ set splitright
 set list
 set listchars=tab:\|\ ,trail:•
 
-" Show statusbar
-set laststatus=2
+" Show ruler (see rulerformat)
+set ruler
+
+" Show statusbar when more than one window
+set laststatus=1
 
 " Hide buffers
 set hidden
@@ -202,10 +205,23 @@ let g:multi_cursor_quit_key='<Esc>'
 
 " ---------------------------------- Leader ---------------------------------- "
 
+" Toggles between laststatus 1 and 2
+let s:show_statusline = 0
+function! ToggleStatusLine()
+    if s:show_statusline == 0
+        let s:show_statusline = 1
+        set laststatus=2
+    else
+        let s:show_statusline = 0
+        set laststatus=1
+    endif
+endfunction
+
 let mapleader=","
 
 nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
+nmap <leader>s :call ToggleStatusLine()<cr>
 
 " Open .vimrc (Bypass symlink to make fugitive work properly)
 nmap <leader>ev :execute 'tabedit ' . resolve(expand($MYVIMRC))<cr>
