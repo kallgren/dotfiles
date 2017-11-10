@@ -180,7 +180,7 @@ let g:WebDevIconsNerdTreeAfterGlyphPadding = '' " Better alignment
 let g:WebDevIconsNerdTreeBeforeGlyphPadding = ''
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 " let g:DevIconsEnableFoldersOpenClose = 1 " Causes padding issues
-" execute webdevicons#hardRefresh()
+execute webdevicons#hardRefresh()
 
 " ================================= BINDINGS ================================= "
 
@@ -221,7 +221,12 @@ let mapleader=","
 
 nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
+nmap <leader>t :tabnew<cr>
 nmap <leader>s :call ToggleStatusLine()<cr>
+
+" Check/uncheck todo-list items
+nmap <leader>x mm_rx`m
+nmap <leader>- mm_r-`m
 
 " Open .vimrc (Bypass symlink to make fugitive work properly)
 nmap <leader>ev :execute 'tabedit ' . resolve(expand($MYVIMRC))<cr>
