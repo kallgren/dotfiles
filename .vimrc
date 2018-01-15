@@ -21,11 +21,10 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
 Plugin 'terryma/vim-multiple-cursors'
 Plugin 'airblade/vim-gitgutter'
-Plugin 'rakr/vim-one'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
-Plugin 'ctrlp/ctrlp.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'wincent/terminus'
@@ -116,7 +115,25 @@ let &t_8b = "[48;2;%lu;%lu;%lum"
 
 " Colorscheme
 set background=dark
-colorscheme one
+colorscheme kallgren
+
+" -------------------------------- Cursorline -------------------------------- "
+
+" Change color based on mode
+function! CursorLineColor(mode)
+  if a:mode == 'i'
+    return g:base16_gui0Dt
+  elseif a:mode == 'r'
+    return g:base16_gui08t
+  else
+    return g:base16_gui01
+  endif
+endfunction
+
+au! InsertEnter
+au! InsertLeave
+au InsertEnter * execute 'hi CursorLine guibg=#' . CursorLineColor(v:insertmode)
+au InsertLeave * execute 'hi CursorLine guibg=#' . g:base16_gui01
 
 " -------------------------------- Statusline -------------------------------- "
 
@@ -146,6 +163,11 @@ set statusline +=%w " Preview window flag
 set statusline +=%m " Modified flag
 set statusline +=%r " Readonly flag
 set statusline +=\  " Space
+
+" Syntastic statusline (TODO: Fix background color)
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*\ 
 
 " Space
 set statusline +=%=
@@ -223,6 +245,8 @@ nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
 nmap <leader>t :tabnew<cr>
 nmap <leader>s :call ToggleStatusLine()<cr>
+nmap <Leader>bl :set background=light<CR>:colorscheme kallgren<CR>
+nmap <Leader>bk :set background=dark<CR>:colorscheme kallgren<CR>
 
 " Check/uncheck todo-list items
 nmap <leader>x mm_rx`m
