@@ -244,6 +244,7 @@ let mapleader=","
 nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
 nmap <leader>t :tabnew<cr>
+" nmap <Leader>s :let &laststatus = ( &laststatus == 1 ? 2 : 1 )<CR>
 nmap <leader>s :call ToggleStatusLine()<cr>
 nmap <Leader>bl :set background=light<CR>:colorscheme kallgren<CR>
 nmap <Leader>bk :set background=dark<CR>:colorscheme kallgren<CR>
@@ -271,6 +272,9 @@ nmap <leader>hp <Plug>GitGutterPrevHunk
 nmap <leader>hs <Plug>GitGutterStageHunk
 nmap <leader>hu <Plug>GitGutterUndoHunk
 nmap <leader>hv <Plug>GitGutterPreviewHunk
+
+" scrooloose/nerdtree
+map <leader>n :NERDTreeFind<cr>
 
 " junegunn/goyo.vim
 nnoremap <leader>z :Goyo<cr>
