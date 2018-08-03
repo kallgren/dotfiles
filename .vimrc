@@ -298,7 +298,11 @@ nmap <leader>ev :execute 'tabedit ' . resolve(expand($MYVIMRC))<cr>
 nmap <leader>et :tabedit ~/.tmux.conf<cr>
 
 " Find in files (type search term, change **, run the command and then :lw)
-nmap <leader>f :lvimgrep //gj **<Left><Left><Left><Left><Left><Left>
+" nmap <leader>f :lvimgrep //gj **<Left><Left><Left><Left><Left><Left>
+
+" Find in files in git repository (type search term, run the command, and then
+" navigate through the quickfix list (:copen, :cn, etc.))
+nmap <leader>f :Ggrep 
 
 " tpope/vim-fugitive
 nnoremap <leader>gs :Gstatus<cr>
