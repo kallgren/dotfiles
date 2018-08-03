@@ -58,6 +58,7 @@ set rnu
 " Tab settings
 set shiftwidth=4
 set tabstop=4
+set expandtab
 
 " Split below and to the right
 set splitbelow
