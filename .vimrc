@@ -142,6 +142,19 @@ au InsertLeave * execute 'hi CursorLine guibg=#' . g:base16_gui01
 
 " -------------------------------- Statusline -------------------------------- "
 
+" " Change color based on file status (modified, read-only, etc.)
+" " TODO: Update at better intervals and make local to the current buffer
+" function! StatusLineColor()
+"   if &mod
+"     execute 'hi StatusLine guibg=#' . g:base16_gui08t
+"   else
+"     execute 'hi StatusLine guibg=#' . g:base16_gui01
+"   endif
+"   return ""
+" endfun
+
+" au CursorHold,CursorHoldI * call StatusLineColor()
+
 " Returns current git branch (if the active file is in a git repository)
 function! GetGitBranch()
 	if exists('*fugitive#head')
@@ -159,6 +172,16 @@ function! GetGitBranch()
 
 	return ''
 endfunction
+
+" ------------- EXPERIMENTS ------------- "
+" if &bufmodified
+" 	set statusline +=\ %<%#error#%f%* " Relative file path
+" else
+" 	set statusline +=\ %<%f " Relative file path
+" endif
+
+" let &statusline=' %<%{&mod?"%#error#%f%*":"%f"}%r%{&fenc !~ "^$\\|utf-8" || &bomb ?  "[".&fenc.(&bomb?"-bom":"")."]" : ""}%=%15.(%l,%c%V %P%)'
+" --------------------------------------- "
 
 " Left
 set statusline=%<%f\ %{WebDevIconsGetFileTypeSymbol()}\  " Relative file path
