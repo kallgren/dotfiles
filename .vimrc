@@ -71,7 +71,7 @@ set listchars=tab:\|\ ,trail:•
 " Show ruler (see rulerformat)
 set ruler
 
-" Show statusbar when more than one window
+" Show statusbar when more than one window (vim-sensible overrides this though)
 set laststatus=1
 
 " Hide buffers
@@ -266,7 +266,7 @@ let g:multi_cursor_quit_key='<Esc>'
 " ---------------------------------- Leader ---------------------------------- "
 
 " Toggles between laststatus 1 and 2
-let s:show_statusline = 0
+let s:show_statusline = 1
 function! ToggleStatusLine()
     if s:show_statusline == 0
         let s:show_statusline = 1
