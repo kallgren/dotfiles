@@ -34,7 +34,7 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'pangloss/vim-javascript'
 Plugin 'leafgarland/typescript-vim'
 Plugin 'mxw/vim-jsx'
-Plugin 'Valloric/YouCompleteMe'
+" Plugin 'Valloric/YouCompleteMe'
 Plugin 'vim-syntastic/syntastic'
 Plugin 'lervag/vimtex'
 Plugin 'guns/vim-clojure-static'
@@ -231,7 +231,6 @@ let g:WebDevIconsNerdTreeAfterGlyphPadding = '' " Better alignment
 let g:WebDevIconsNerdTreeBeforeGlyphPadding = ''
 let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 " let g:DevIconsEnableFoldersOpenClose = 1 " Causes padding issues
-execute webdevicons#hardRefresh()
 
 " vim-syntastic/syntastic
 let g:syntastic_javascript_checkers = ['eslint']
@@ -354,4 +353,5 @@ xmap ah <Plug>GitGutterTextObjectOuterVisual
 augroup autosourcing
 	autocmd!
 	autocmd BufWritePost *vimrc source $MYVIMRC
+	autocmd BufWritePost *vimrc execute webdevicons#hardRefresh()
 augroup END
