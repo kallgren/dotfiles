@@ -232,6 +232,16 @@ let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 " let g:DevIconsEnableFoldersOpenClose = 1 " Causes padding issues
 execute webdevicons#hardRefresh()
 
+" vim-syntastic/syntastic
+let g:syntastic_javascript_checkers = ['eslint']
+
+" mxw/vim-jsx
+let g:jsx_ext_required = 0
+
+" lervag/vimtex
+let g:tex_flavor = 'latex'
+let g:vimtex_fold_enabled = 1
+
 " ================================= BINDINGS ================================= "
 
 " ---------------------------------- Basics ---------------------------------- "
