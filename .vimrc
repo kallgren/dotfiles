@@ -246,7 +246,15 @@ let g:vimtex_fold_enabled = 1
 
 " ---------------------------------- Basics ---------------------------------- "
 
+" NERDTree
 map <silent> <C-n> :NERDTreeFocus<CR>
+
+" Quick fix window
+map <silent> <C-c> :cwindow<CR>
+nnoremap <silent> <Up> :cprevious<cr>
+nnoremap <silent> <Down> :cnext<cr>
+nnoremap <silent> <Left> :cpfile<cr>
+nnoremap <silent> <Right> :cnfile<cr>
 
 " Window navigation
 let g:tmux_navigator_no_mappings = 1
