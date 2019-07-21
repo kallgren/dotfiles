@@ -103,8 +103,13 @@ alias ta="tmux attach"
 # git
 alias gs="git status"
 alias gd="git diff"
+alias gap="git add -p"
 
 # ================================== PROMPT ================================== "
 
 autoload -U promptinit; promptinit
 prompt pure
+
+# =================================== PATH =================================== "
+
+export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"

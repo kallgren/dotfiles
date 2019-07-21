@@ -13,33 +13,45 @@ filetype off
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
 
+" --------------------------------- General ---------------------------------- "
+
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'tpope/vim-sensible'
 Plugin 'tpope/vim-commentary'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-repeat'
-Plugin 'tpope/vim-fireplace'
 Plugin 'airblade/vim-gitgutter'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Xuyuanp/nerdtree-git-plugin'
 Plugin 'tiagofumo/vim-nerdtree-syntax-highlight'
 Plugin 'ctrlpvim/ctrlp.vim'
-Plugin 'editorconfig/editorconfig-vim'
+Plugin 'vim-syntastic/syntastic'
 Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'wincent/terminus'
-Plugin 'ryanoasis/vim-devicons'
-Plugin 'ap/vim-css-color'
 Plugin 'junegunn/goyo.vim'
+Plugin 'ryanoasis/vim-devicons'
+Plugin 'editorconfig/editorconfig-vim'
+" Plugin 'Valloric/YouCompleteMe'
+" Plugin 'chriskempson/base16-vim'
+
+" --------------------------------- Specific --------------------------------- "
+
+Plugin 'ap/vim-css-color'
+
 Plugin 'pangloss/vim-javascript'
 Plugin 'leafgarland/typescript-vim'
+
 Plugin 'mxw/vim-jsx'
-" Plugin 'Valloric/YouCompleteMe'
-Plugin 'vim-syntastic/syntastic'
-Plugin 'lervag/vimtex'
-Plugin 'guns/vim-clojure-static'
+
 Plugin 'posva/vim-vue'
+
 Plugin 'wavded/vim-stylus'
+
+Plugin 'lervag/vimtex'
+
+" Plugin 'tpope/vim-fireplace'
+" Plugin 'guns/vim-clojure-static'
 
 call vundle#end()
 filetype plugin indent on
@@ -233,7 +245,13 @@ let g:WebDevIconsUnicodeDecorateFolderNodes = 1
 " let g:DevIconsEnableFoldersOpenClose = 1 " Causes padding issues
 
 " vim-syntastic/syntastic
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_loc_list_height = 3
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
 let g:syntastic_javascript_checkers = ['eslint']
+let g:syntastic_javascript_eslint_exe = 'yarn lint --'
 
 " mxw/vim-jsx
 let g:jsx_ext_required = 0
@@ -249,12 +267,15 @@ let g:vimtex_fold_enabled = 1
 " NERDTree
 map <silent> <C-n> :NERDTreeFocus<CR>
 
-" Quick fix window
+" Quick fix / location list window
 map <silent> <C-c> :cwindow<CR>
+map <silent> <C-x> :lwindow<CR>
 nnoremap <silent> <Up> :cprevious<cr>
 nnoremap <silent> <Down> :cnext<cr>
 nnoremap <silent> <Left> :cpfile<cr>
 nnoremap <silent> <Right> :cnfile<cr>
+nnoremap <silent> <leader>lp :lprevious<cr>
+nnoremap <silent> <leader>ln :lnext<cr>
 
 " Window navigation
 let g:tmux_navigator_no_mappings = 1
@@ -297,6 +318,9 @@ nmap <leader>ev :execute 'tabedit ' . resolve(expand($MYVIMRC))<cr>
 
 " Open .tmux.conf
 nmap <leader>et :tabedit ~/.tmux.conf<cr>
+
+" Open .zshrc
+nmap <leader>ez :tabedit ~/.zshrc<cr>
 
 " Find in files (type search term, change **, run the command and then :lw)
 " nmap <leader>f :lvimgrep //gj **<Left><Left><Left><Left><Left><Left>
