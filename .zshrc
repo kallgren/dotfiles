@@ -105,6 +105,7 @@ alias gs="git status"
 alias gd="git diff"
 alias gdc="git diff --cached"
 alias gap="git add -p"
+alias gl='git log --oneline --graph --decorate --all'
 
 # ================================== PROMPT ================================== "
 
