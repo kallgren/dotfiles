@@ -115,10 +115,12 @@ alias gl='git log --oneline --graph --decorate --all'
 autoload -U promptinit; promptinit
 prompt pure
 
-# =================================== PATH =================================== "
+# =========================== PATH & other exports ============================ "
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+export LC_ALL=en_US.UTF-8 # Fix warnings when starting Vim 8.2 installed with Homebrew
