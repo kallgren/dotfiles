@@ -334,11 +334,11 @@ nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gd :Gvdiff<cr>
 nnoremap <leader>gb :Gblame<cr>
 nnoremap <leader>gw :Gbrowse<cr>
-nmap <leader>hn <Plug>GitGutterNextHunk
-nmap <leader>hp <Plug>GitGutterPrevHunk
-nmap <leader>hs <Plug>GitGutterStageHunk
-nmap <leader>hu <Plug>GitGutterUndoHunk
-nmap <leader>hv <Plug>GitGutterPreviewHunk
+nmap <leader>hn <Plug>(GitGutterNextHunk)
+nmap <leader>hp <Plug>(GitGutterPrevHunk)
+nmap <leader>hs <Plug>(GitGutterStageHunk)
+nmap <leader>hu <Plug>(GitGutterUndoHunk)
+nmap <leader>hv <Plug>(GitGutterPreviewHunk)
 
 " scrooloose/nerdtree
 map <leader>n :NERDTreeFind<cr>
