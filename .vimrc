@@ -289,7 +289,7 @@ nnoremap <silent> <C-ö> :TmuxNavigatePrevious<cr>
 
 " Toggles between laststatus 1 and 2
 let s:show_statusline = 1
-function! ToggleStatusLine()
+function! ToggleStatusLineFuction()
     if s:show_statusline == 0
         let s:show_statusline = 1
         set laststatus=2
@@ -299,13 +299,43 @@ function! ToggleStatusLine()
     endif
 endfunction
 
+" Toggles between dark and light color theme in vim, iterm2 and tmux
+" TODO:
+" Get the right colors on startup depending on iterm profile:
+"   Make iterm create/delete the files ~/.dark_colors and ~/.light_colors when switching profile
+"   Read if file ~/.dark_colors or ~/.light_colors exists and set background accordingly
+"   Do the same in tmux
+"   Trigger tmux color change from vim too?
+" Optimal: Trigger both vim and tmux reload from apple script executed by iterm?
+function! ToggleTerminalColorsFunction()
+    if &background ==? 'dark'
+        set background=light
+        silent !osascript -e 'tell app "System Events" to keystroke "l" using {control down, command down}'
+        silent !osascript -e 'tell app "System Events" to keystroke space using control down'
+        silent !osascript -e 'tell app "System Events" to keystroke "l" using control down'
+        " Faster, but requires knowledge of tmux config location:
+        " execute "silent !tmux source-file " . shellescape(expand('~/dotfiles/tmuxcolors-light.conf'))
+    else
+        set background=dark
+        silent !osascript -e 'tell app "System Events" to keystroke "k" using {control down, command down}'
+        silent !osascript -e 'tell app "System Events" to keystroke space using control down'
+        silent !osascript -e 'tell app "System Events" to keystroke "k" using control down'
+        " Faster, but requires knowledge of tmux config location:
+        " execute "silent !tmux source-file " . shellescape(expand('~/dotfiles/tmuxcolors-dark.conf'))
+    endif
+endfunction
+
+command! ToggleStatusLine call ToggleStatusLineFuction()
+command! ToggleTerminalColors call ToggleTerminalColorsFunction()
+
 let mapleader=","
 
 nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
 nmap <leader>t :tabnew<cr>
 " nmap <Leader>s :let &laststatus = ( &laststatus == 1 ? 2 : 1 )<CR>
-nmap <silent> <leader>s :call ToggleStatusLine()<cr>
+nmap <leader>s :ToggleStatusLine<cr>
+nmap <leader>bg :ToggleTerminalColors<cr>
 nmap <Leader>bl :set background=light<CR>:colorscheme kallgren<CR>
 nmap <Leader>bk :set background=dark<CR>:colorscheme kallgren<CR>
 
