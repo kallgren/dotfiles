@@ -260,32 +260,7 @@ let g:jsx_ext_required = 0
 let g:tex_flavor = 'latex'
 let g:vimtex_fold_enabled = 1
 
-" ================================= BINDINGS ================================= "
-
-" ---------------------------------- Basics ---------------------------------- "
-
-" NERDTree
-map <silent> <C-n> :NERDTreeFocus<CR>
-
-" Quick fix / location list window
-map <silent> <C-c> :cwindow<CR>
-map <silent> <C-x> :lwindow<CR>
-nnoremap <silent> <Up> :cprevious<cr>
-nnoremap <silent> <Down> :cnext<cr>
-nnoremap <silent> <Left> :cpfile<cr>
-nnoremap <silent> <Right> :cnfile<cr>
-nnoremap <silent> <leader>lp :lprevious<cr>
-nnoremap <silent> <leader>ln :lnext<cr>
-
-" Window navigation
-let g:tmux_navigator_no_mappings = 1
-nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
-nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
-nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
-nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
-nnoremap <silent> <C-ö> :TmuxNavigatePrevious<cr>
-
-" ---------------------------------- Leader ---------------------------------- "
+" ============================= CUSTOM COMMANDS ============================= "
 
 " Toggles between laststatus 1 and 2
 let s:show_statusline = 1
@@ -328,16 +303,43 @@ endfunction
 command! ToggleStatusLine call ToggleStatusLineFuction()
 command! ToggleTerminalColors call ToggleTerminalColorsFunction()
 
+" ================================= BINDINGS ================================= "
+
+" ---------------------------------- Basics ---------------------------------- "
+
+" NERDTree
+map <silent> <C-n> :NERDTreeFocus<cr>
+
+" Quick fix / location list window
+map <silent> <C-c> :cwindow<cr>
+map <silent> <C-x> :lwindow<cr>
+nnoremap <silent> <Up> :cprevious<cr>
+nnoremap <silent> <Down> :cnext<cr>
+nnoremap <silent> <Left> :cpfile<cr>
+nnoremap <silent> <Right> :cnfile<cr>
+nnoremap <silent> <leader>lp :lprevious<cr>
+nnoremap <silent> <leader>ln :lnext<cr>
+
+" Window navigation
+let g:tmux_navigator_no_mappings = 1
+nnoremap <silent> <C-h> :TmuxNavigateLeft<cr>
+nnoremap <silent> <C-j> :TmuxNavigateDown<cr>
+nnoremap <silent> <C-k> :TmuxNavigateUp<cr>
+nnoremap <silent> <C-l> :TmuxNavigateRight<cr>
+nnoremap <silent> <C-ö> :TmuxNavigatePrevious<cr>
+
+" ---------------------------------- Leader ---------------------------------- "
+
 let mapleader=","
 
 nmap <leader>q :q<cr>
 nmap <leader>d :bd<cr>
 nmap <leader>t :tabnew<cr>
-" nmap <Leader>s :let &laststatus = ( &laststatus == 1 ? 2 : 1 )<CR>
+" nmap <leader>s :let &laststatus = ( &laststatus == 1 ? 2 : 1 )<cr>
 nmap <leader>s :ToggleStatusLine<cr>
 nmap <leader>bg :ToggleTerminalColors<cr>
-nmap <Leader>bl :set background=light<CR>:colorscheme kallgren<CR>
-nmap <Leader>bk :set background=dark<CR>:colorscheme kallgren<CR>
+nmap <leader>bl :set background=light<cr>:colorscheme kallgren<cr>
+nmap <leader>bk :set background=dark<cr>:colorscheme kallgren<cr>
 
 " Check/uncheck todo-list items
 nmap <leader>x mm_rx`m
