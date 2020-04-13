@@ -27,5 +27,5 @@
     4. Enable hotkey to quickly show/hide terminal (<kbd>Alt</kbd> + <kbd>Space</kbd>)
 14. Fire up `tmux` + `vim`
 15. Install vim plugins by running `:PluginInstall` inside vim
-16. Install tmux plugins by pressing _prefix_ (<kbd>Ctrl</kbd> + <kbd>Space</kbd>) + <kbd>I</kbd>
-17. Done! ✌️
+16. Install tmux plugins by pressing _prefix_ (<kbd>Ctrl</kbd> + <kbd>Space</kbd>), <kbd>I</kbd>
+17. Done! ✌️ Switch between the light and dark color themes in vim, tmux and iterm2 at once from within vim with the single key binding <kbd>,</kbd><kbd>b</kbd><kbd>g</kbd>
