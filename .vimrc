@@ -48,7 +48,7 @@ Plugin 'posva/vim-vue'
 
 Plugin 'wavded/vim-stylus'
 
-Plugin 'lervag/vimtex'
+Plugin 'lervag/vimtex' " Install MacTex to get everything you need (latexmk, etc.)
 
 " Plugin 'tpope/vim-fireplace'
 " Plugin 'guns/vim-clojure-static'
@@ -342,8 +342,8 @@ nmap <leader>bl :set background=light<cr>:colorscheme kallgren<cr>
 nmap <leader>bk :set background=dark<cr>:colorscheme kallgren<cr>
 
 " Check/uncheck todo-list items
-nmap <leader>x mm_rx`m
-nmap <leader>- mm_r-`m
+nmap <leader>x mm_f-rx`m
+nmap <leader>- mm_f-r-`m
 
 " Open .vimrc (Bypass symlink to make fugitive work properly)
 nmap <leader>ev :execute 'tabedit ' . resolve(expand($MYVIMRC))<cr>
