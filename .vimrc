@@ -33,7 +33,10 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'ryanoasis/vim-devicons'
 Plugin 'editorconfig/editorconfig-vim'
 " Plugin 'Valloric/YouCompleteMe'
+
 " Plugin 'chriskempson/base16-vim'
+" Plugin 'lifepillar/vim-solarized8'
+" Plugin 'morhetz/gruvbox'
 
 " --------------------------------- Specific --------------------------------- "
 
