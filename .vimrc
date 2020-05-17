@@ -346,7 +346,7 @@ nmap <leader>bk :set background=dark<cr>:colorscheme kallgren<cr>
 
 " Check/uncheck todo-list items
 nmap <leader>x mm_f-rx`m
-nmap <leader>- mm_f-r-`m
+nmap <leader>- mm_fxr-`m
 
 " Open .vimrc (Bypass symlink to make fugitive work properly)
 nmap <leader>ev :execute 'tabedit ' . resolve(expand($MYVIMRC))<cr>
