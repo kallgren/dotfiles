@@ -107,7 +107,11 @@ alias ta="tmux attach"
 alias gs="git status"
 alias gd="git diff"
 alias gdc="git diff --cached"
+alias gdp="git diff --patience"
 alias gap="git add -p"
+alias gst='git stash'
+alias gsp='git stash pop'
+alias gsa='git stash apply'
 alias gl='git log --oneline --graph --decorate --all'
 
 # ================================== PROMPT ================================== "
