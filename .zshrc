@@ -109,6 +109,7 @@ alias gd="git diff"
 alias gdc="git diff --cached"
 alias gdp="git diff --patience"
 alias gap="git add -p"
+alias gapp="git -c diff.algorithm=patience add -p"
 alias gst='git stash'
 alias gsp='git stash pop'
 alias gsa='git stash apply'
