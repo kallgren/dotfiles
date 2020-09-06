@@ -106,8 +106,9 @@ alias ta="tmux attach"
 # git
 alias gs="git status"
 alias gd="git diff"
-alias gdc="git diff --cached"
 alias gdp="git diff --patience"
+alias gdc="git diff --cached"
+alias gdcp="git diff --cached --patience"
 alias gap="git add -p"
 alias gapp="git -c diff.algorithm=patience add -p"
 alias gst='git stash'
