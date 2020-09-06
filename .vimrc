@@ -75,6 +75,11 @@ set shiftwidth=4
 set tabstop=4
 set expandtab
 
+" Only case sensitive search if query contains uppercase characters
+" (NOTE: Also affects substitutions)
+set ignorecase
+set smartcase
+
 " Split below and to the right
 set splitbelow
 set splitright
