@@ -369,6 +369,13 @@ nmap <leader>ez :tabedit ~/.zshrc<cr>
 " navigate through the quickfix list (:copen, :cn, etc.))
 nmap <leader>f :Ggrep 
 
+" Spell checking & latex related
+nmap <leader>w ]s
+nmap <leader>W [s
+nmap <leader>r 1z=
+nmap <leader>l :setlocal spell spelllang=en_gb<cr>
+xnoremap <leader>m <ESC>`>a}<ESC>`<i{\color{red} <ESC>
+
 " tpope/vim-fugitive
 nnoremap <leader>gs :Gstatus<cr>
 nnoremap <leader>gd :Gvdiff<cr>
