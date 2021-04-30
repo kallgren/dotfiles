@@ -40,3 +40,8 @@
 3. Create an _App Shortcut_ for VS Code inside macOS keyboard preferences: _Code->Hide Visual Studio Code_ (<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>)
 4. Download [Quicksilver](https://qsapp.com/), change its default activation shortcut to not replace macOS spotlight (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd>) and set up a Quicksilver trigger to open VS Code with the same key combination as the App Shortcut (<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>) _(macOS' built-in support for opening apps using services created in Automator has delay and is unreliable)_. Then configure Quicksilver to disable the trigger once inside VS Code so that it won't interfere with the App Shortcut.
 5. Open up this repository with VS Code and install the recommended extensions
+
+### Bear
+
+1. [Download](https://bear.app/)
+2. Enable global shortcut to quickly show/hide in Bear's preferences (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>)
