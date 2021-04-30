@@ -1,0 +1,21 @@
+{
+    "recommendations": [
+        "vscodevim.vim",
+        "eamodio.gitlens",
+        "esbenp.prettier-vscode",
+        "dbaeumer.vscode-eslint",
+        "stylelint.vscode-stylelint",
+        "yzhang.markdown-all-in-one",
+        "cssho.vscode-svgviewer",
+        "irongeek.vscode-env",
+        "tyriar.lorem-ipsum",
+        "ms-azuretools.vscode-docker",
+        "mhutchie.git-graph",
+        "pranaygp.vscode-css-peek",
+        "bradlc.vscode-tailwindcss",
+        "blanu.vscode-styled-jsx",
+        "andrewrazumovsky.vscode-styled-jsx-languageserver",
+        "graphql.vscode-graphql",
+        "akamud.vscode-theme-onelight"
+    ]
+}

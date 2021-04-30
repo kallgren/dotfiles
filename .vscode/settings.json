@@ -1,0 +1,7 @@
+{
+  "window.newWindowDimensions": "inherit",
+  "editor.renderWhitespace": "all",
+  "editor.lineNumbers": "relative",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "gitlens.hovers.currentLine.over": "line"
+}
