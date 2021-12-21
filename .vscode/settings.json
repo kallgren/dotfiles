@@ -3,5 +3,6 @@
   "editor.renderWhitespace": "all",
   "editor.lineNumbers": "relative",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "gitlens.hovers.currentLine.over": "line"
+  "gitlens.hovers.currentLine.over": "line",
+  "workbench.colorTheme": "GitHub Dark"
 }
