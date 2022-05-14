@@ -64,4 +64,4 @@ The preset includes:
 
 ### Keyboard
 
-- Planck: install QMK and flash [firmware](https://github.com/kallgren/qmk-firmware)
+- Planck: install QMK and flash [firmware](https://github.com/kallgren/qmk_firmware/tree/master/keyboards/planck/keymaps/kallgren)
