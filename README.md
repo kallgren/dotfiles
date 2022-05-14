@@ -60,6 +60,7 @@ The preset includes:
 
 - Setup <kbd>Alt</kbd> + <kbd>Tab</kbd> to toggle windows within application
 - Install [Monitor Control](https://github.com/MonitorControl/MonitorControl) to enable native macOS volume and brightness control of external monitor
+- Install [EasyRes](http://easyresapp.com/) to get 144Hz working at full resolution on external monitor
 
 ### Keyboard
 
