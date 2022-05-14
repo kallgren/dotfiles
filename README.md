@@ -27,7 +27,6 @@
     1. Switch to _Monaco Nerd Font_ installed earlier
     2. Create separate profiles for the dark and light theme and import the _.itermcolors_ files
     3. Add custom keybindings to toggle between the profiles! (<kbd>Ctrl</kbd> + <kbd>Cmd</kbd> + <kbd>k</kbd>/<kbd>l</kbd>)
-    4. Enable hotkey to quickly show/hide terminal (<kbd>Alt</kbd> + <kbd>Space</kbd>)
 14. Fire up `tmux` + `vim`
 15. Install vim plugins by running `:PluginInstall` inside vim
 16. Install tmux plugins by pressing _prefix_ (<kbd>Ctrl</kbd> + <kbd>Space</kbd>), <kbd>I</kbd>
@@ -37,14 +36,25 @@
 
 1. [Download](https://code.visualstudio.com/)
 2. `ln -s ~/dotfiles/.vscode/settings.json ~/dotfiles/.vscode/keybindings.json ~/Library/Application\ Support/Code/User/`
-3. Create an _App Shortcut_ for VS Code inside macOS keyboard preferences: _Code->Hide Visual Studio Code_ (<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>)
-4. Download [Quicksilver](https://qsapp.com/), change its default activation shortcut to not replace macOS spotlight (<kbd>Ctrl</kbd> + <kbd>Alt</kbd> + <kbd>Space</kbd>) and set up a Quicksilver trigger to open VS Code with the same key combination as the App Shortcut (<kbd>Alt</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>) _(macOS' built-in support for opening apps using services created in Automator has delay and is unreliable)_. Then configure Quicksilver to disable the trigger once inside VS Code so that it won't interfere with the App Shortcut.
-5. Open up this repository with VS Code and install the recommended extensions
+3. Open up this repository with VS Code and install the recommended extensions
 
 ### Bear
 
 1. [Download](https://bear.app/)
-2. Enable global shortcut to quickly show/hide in Bear's preferences (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>)
+
+### BetterTouchTool
+
+1. [Download](https://folivora.ai/)
+2. Import _kallgren.bttpreset_
+3. Adjust trackpad rotate gesture settings (for knob-style volume control) (because it is not included in settings export): 
+    - _Rotate block time_: 0.01
+    - _Set needed rotation amount (degree)_: ~3
+
+The preset includes:
+- App toggle keybindings (on left hand on my keyboard) for commonly used applications, using <kbd>Hyper</kbd> (<kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>Command</kbd>)
+- Window management keybindings (on right hand on my keyboard) using <kbd>Hyper</kbd> with logical placements (exploiting symbol combos to extend options, and using num layer for more complex or specific window configurations, see QMK config)
+- Touch gestures for volume and brightness control
+- Clipboard history on <kbd>Hyper</kbd> + <kbd>v</kbd>
 
 ### macOS
 
