@@ -45,3 +45,12 @@
 
 1. [Download](https://bear.app/)
 2. Enable global shortcut to quickly show/hide in Bear's preferences (<kbd>Cmd</kbd> + <kbd>Shift</kbd> + <kbd>Space</kbd>)
+
+### macOS
+
+- Setup <kbd>Alt</kbd> + <kbd>Tab</kbd> to toggle windows within application
+- Install [Monitor Control](https://github.com/MonitorControl/MonitorControl) to enable native macOS volume and brightness control of external monitor
+
+### Keyboard
+
+- Planck: install QMK and flash [firmware](https://github.com/kallgren/qmk-firmware)
