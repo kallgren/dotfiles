@@ -64,4 +64,5 @@ The preset includes:
 
 ### Keyboard
 
+- Ferris Sweep: flash [ZMK firmware](https://github.com/kallgren/zmk-config)
 - Planck: install QMK and flash [firmware](https://github.com/kallgren/qmk_firmware/tree/master/keyboards/planck/keymaps/kallgren)
