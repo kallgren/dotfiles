@@ -4,5 +4,12 @@
   "editor.lineNumbers": "relative",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "gitlens.hovers.currentLine.over": "line",
-  "workbench.colorTheme": "GitHub Dark"
+  "terminal.integrated.tabs.enabled": true,
+  "diffEditor.renderSideBySide": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "editor.renderLineHighlight": "none",
+  "jest.autoRun": "off",
+  "workbench.preferredLightColorTheme": "Night Owl Light",
+  "workbench.colorTheme": "GitHub Dark",
+  "workbench.preferredDarkColorTheme": "GitHub Dark"
 }
