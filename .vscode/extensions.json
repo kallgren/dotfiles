@@ -17,7 +17,9 @@
         "andrewrazumovsky.vscode-styled-jsx-languageserver",
         "graphql.vscode-graphql",
         "akamud.vscode-theme-onelight",
+        "rangav.vscode-thunder-client",
         "github.github-vscode-theme",
-        "sdras.night-owl"
+        "sdras.night-owl",
+        "betterthantomorrow.calva"
     ]
 }

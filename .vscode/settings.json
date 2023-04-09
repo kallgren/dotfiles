@@ -10,6 +10,9 @@
   "editor.renderLineHighlight": "none",
   "jest.autoRun": "off",
   "workbench.preferredLightColorTheme": "Night Owl Light",
-  "workbench.colorTheme": "GitHub Dark",
+  "workbench.colorTheme": "Night Owl",
   "workbench.preferredDarkColorTheme": "GitHub Dark"
+  "[clojure]": {
+    "editor.defaultFormatter": "betterthantomorrow.calva"
+  },
 }
