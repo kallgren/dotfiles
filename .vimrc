@@ -31,8 +31,9 @@ Plugin 'christoomey/vim-tmux-navigator'
 Plugin 'wincent/terminus'
 Plugin 'junegunn/goyo.vim'
 Plugin 'ryanoasis/vim-devicons'
-Plugin 'editorconfig/editorconfig-vim'
+" Plugin 'editorconfig/editorconfig-vim'
 " Plugin 'Valloric/YouCompleteMe'
+" Plugin 'easymotion/vim-easymotion'
 
 " Plugin 'chriskempson/base16-vim'
 " Plugin 'lifepillar/vim-solarized8'
@@ -182,7 +183,7 @@ function! GetGitBranch()
 		let head = fugitive#head()
 
 		if empty(head) && exists('*fugitive#detect') && !exists('b:git_dir')
-			call fugitive#detect(getcwd())
+			call fugitive#detect(getcwd()) " TODO: Fix detect call which has been removed
 			let head = fugitive#head()
 		endif
 
@@ -271,7 +272,7 @@ let g:vimtex_fold_enabled = 1
 " ============================= CUSTOM COMMANDS ============================= "
 
 " Toggles between laststatus 1 and 2
-let s:show_statusline = 1
+let s:show_statusline = 0 " TODO: Visst fixar detta synk-problemet, eller overridar vim-senssible fortfarande? Undersök
 function! ToggleStatusLineFuction()
     if s:show_statusline == 0
         let s:show_statusline = 1
