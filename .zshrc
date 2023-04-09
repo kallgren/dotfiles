@@ -118,6 +118,7 @@ alias gst='git stash'
 alias gsp='git stash pop'
 alias gsa='git stash apply'
 alias gl='git log --oneline --graph --decorate --all'
+alias gba='git branch -a' # Use 'git remote prune origin' to remove local branches not on remote (--dry-run arg to test)
 
 # ================================== PROMPT ================================== "
 
