@@ -104,10 +104,14 @@
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
     },
-    /* Quick Open (same as the default cmd+p) */
     {
-        "key": "ctrl+p",
-        "command": "workbench.action.quickOpen"
+        "key": "alt+cmd+b",
+        "command": "workbench.action.toggleAuxiliaryBar"
     }
+    /* Quick Open (same as the default cmd+p) */
+    /*{
+                "key": "ctrl+p",
+                "command": "workbench.action.quickOpen"
+    }*/
     /* Other */
 ]
