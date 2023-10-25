@@ -1,27 +1,28 @@
 # Kallgren's dotfiles 🙃
 
-![Dark theme](screenshots/2018-01-15-dark.png "Dark theme screenshot")
-![Light theme](screenshots/2018-01-15-light.png "Light theme screenshot")
-![Minimal Vim dark](screenshots/2018-01-15-minimal-vim-dark.png "Minimal Vim screenshot dark")
-![Minimal Vim light](screenshots/2018-01-15-minimal-vim-light.png "Minimal Vim screenshot light")
-![Vim Goyo markdown dark](screenshots/2018-01-15-vim-goyo-dark.png "Vim Goyo markdown screenshot dark")
-![Vim Goyo markdown light](screenshots/2018-01-15-vim-goyo-light.png "Vim Goyo markdown screenshot light")
-
 ## Setup
 
-### Term & Vim
+`git clone git@github.com:kallgren/dotfiles.git ~`
+
+### Applications
+
+1. Install [Homebrew](https://brew.sh/)
+2. `cd ~/dotfiles`
+3. `brew bundle` (Installs applications listed in [Brewfile](Brewfile))
+4. Configure BetterTouchTool, Monitor Control and Flux to run at startup
+
+### Terminal
+1. Install [Oh My ZSH!](https://ohmyz.sh/)
+2. `ln -s ~/dotfiles/.zshrc ~`
+
+### Legacy iTerm2 + Tmux + Vim setup
 
 1. [iTerm2](https://www.iterm2.com/)
 2. [Monaco Nerd Font](https://github.com/taohex/font/blob/master/Monaco%20for%20Powerline%20Nerd%20Font%20Complete.otf)
-3. [Homebrew](https://brew.sh/)
-4. [Oh My ZSH!](https://ohmyz.sh/)
-5. `brew install pure` ([link](https://github.com/sindresorhus/pure))
 6. `brew install vim` (Apple's shipped `vim` version may not have the `termguicolors` feature enabled)
-7. `brew install tmux`
 8. `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
 9. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-10. `git clone git@github.com:kallgren/dotfiles.git ~`
-11. `ln -s ~/dotfiles/.vimrc ~/dotfiles/.tmux.conf ~/dotfiles/.zshrc ~`
+11. `ln -s ~/dotfiles/.vimrc ~/dotfiles/.tmux.conf ~`
 12. `mkdir -p ~/.vim/colors && cp ~/dotfiles/colors/kallgren.vim "$_"`
 13. Open and configure iTerm2:
     1. Switch to _Monaco Nerd Font_ installed earlier
@@ -34,34 +35,26 @@
 
 ### VS Code
 
-1. [Download](https://code.visualstudio.com/)
-2. `ln -s ~/dotfiles/.vscode/settings.json ~/dotfiles/.vscode/keybindings.json ~/Library/Application\ Support/Code/User/`
-3. Open up this repository with VS Code and install the recommended extensions
-
-### Bear
-
-1. [Download](https://bear.app/)
+1. `ln -s ~/dotfiles/.vscode/settings.json ~/dotfiles/.vscode/keybindings.json ~/Library/Application\ Support/Code/User/`
+2. Open up this repository with VS Code and install any relevant recommended extensions
 
 ### BetterTouchTool
 
-1. [Download](https://folivora.ai/)
-2. Import _kallgren.bttpreset_
-3. Adjust trackpad rotate gesture settings (for knob-style volume control) (because it is not included in settings export): 
+1. Import _kallgren.bttpreset_
+2. Adjust trackpad rotate gesture settings (for knob-style volume control) (because it is not included in settings export): 
     - _Rotate block time_: 0.01
     - _Set needed rotation amount (degree)_: ~3
 
 The preset includes:
 - App toggle keybindings (on left hand on my keyboard) for commonly used applications, using <kbd>Hyper</kbd> (<kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>Command</kbd>)
-- Window management keybindings (on right hand on my keyboard) using <kbd>Hyper</kbd> with logical placements (exploiting symbol combos to extend options, and using num layer for more complex or specific window configurations, see QMK config)
+- Window management keybindings (on right hand on my keyboard) using <kbd>Hyper</kbd> with logical placements (exploiting symbol combos to extend options, and using num layer for more complex or specific window configurations, see ZMK config)
 - Touch gestures for volume and brightness control
 - Clipboard history on <kbd>Hyper</kbd> + <kbd>v</kbd>
 
 ### macOS
 
 - Setup <kbd>Alt</kbd> + <kbd>Tab</kbd> to toggle windows within application
-- Install [Monitor Control](https://github.com/MonitorControl/MonitorControl) to enable native macOS volume and brightness control of external monitor
 
 ### Keyboard
 
 - Ferris Sweep: flash [ZMK firmware](https://github.com/kallgren/zmk-config)
-- Planck: install QMK and flash [firmware](https://github.com/kallgren/qmk_firmware/tree/master/keyboards/planck/keymaps/kallgren)
