@@ -1,5 +1,6 @@
 tap "homebrew/bundle"
 brew "mas"
+brew "pure"
 brew "tmux"
 cask "bettertouchtool"
 cask "discord"

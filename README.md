@@ -15,7 +15,7 @@
 2. [Monaco Nerd Font](https://github.com/taohex/font/blob/master/Monaco%20for%20Powerline%20Nerd%20Font%20Complete.otf)
 3. [Homebrew](https://brew.sh/)
 4. [Oh My ZSH!](https://ohmyz.sh/)
-5. [Pure](https://github.com/sindresorhus/pure)
+5. `brew install pure` ([link](https://github.com/sindresorhus/pure))
 6. `brew install vim` (Apple's shipped `vim` version may not have the `termguicolors` feature enabled)
 7. `brew install tmux`
 8. `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`

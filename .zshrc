@@ -122,6 +122,8 @@ alias gba='git branch -a' # Use 'git remote prune origin' to remove local branch
 
 # ================================== PROMPT ================================== "
 
+fpath+=("$(brew --prefix)/share/zsh/site-functions") # Needed since using ZSH shipped with macOS
+
 autoload -U promptinit; promptinit
 prompt pure
 
