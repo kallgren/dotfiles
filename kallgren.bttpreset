@@ -3,8 +3,26 @@
   "BTTPresetInfoURL" : "",
   "BTTPresetName" : "kallgren",
   "BTTPresetColor" : "144.738000, 219.300000, 87.720000, 255.000000",
-  "BTTPresetUUID" : "A9C40DB4-2CCC-4B2D-9E34-025E8CCA9B41",
+  "BTTPresetUUID" : "6F92289A-6FAC-4D12-A66C-BB77DA4A9B94",
   "BTTPresetContent" : [
+    {
+      "BTTAppBundleIdentifier" : "com.apple.finder",
+      "BTTAppName" : "Finder",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTTriggers" : [
+
+      ]
+    },
+    {
+      "BTTAppBundleIdentifier" : "com.microsoft.teams",
+      "BTTAppName" : "Microsoft Teams",
+      "BTTAppAutoInvertIcon" : 1,
+      "BTTAppProcessMatchMode" : 2,
+      "BTTAppProcessName" : "Microsoft Teams",
+      "BTTTriggers" : [
+
+      ]
+    },
     {
       "BTTAppBundleIdentifier" : "BT.G",
       "BTTAppName" : "Global",
@@ -14,56 +32,20 @@
       },
       "BTTTriggers" : [
         {
-          "BTTLastUpdatedAt" : 1681741572.1172881,
-          "BTTTriggerType" : 0,
-          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
-          "BTTPredefinedActionType" : 203,
-          "BTTPredefinedActionName" : "Show Clipboard \/ Pasteboard History",
-          "BTTAdditionalConfiguration" : "1966123",
-          "BTTKeyboardShortcutKeyboardType" : 12951,
-          "BTTUUID" : "C43455BE-1E86-4B5C-9C0F-6118B6FF3B4E",
-          "BTTTriggerOnDown" : 1,
-          "BTTLayoutIndependentChar" : "v",
+          "BTTLastUpdatedAt" : 1681741572.1016591,
+          "BTTTriggerType" : 118,
+          "BTTTriggerTypeDescription" : "Rotate Right",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 198,
+          "BTTPredefinedActionName" : "Volume Up (Small Step)",
+          "BTTUUID" : "6DCE1A02-0587-42EA-B7B3-395F0CB17A71",
           "BTTEnabled" : 1,
           "BTTEnabled2" : 1,
-          "BTTShortcutKeyCode" : 9,
-          "BTTShortcutModifierKeys" : 1966080,
           "BTTOrder" : 2,
-          "BTTAutoAdaptToKeyboardLayout" : 0
+          "BTTGestureNotes" : "Rotate Right"
         },
         {
-          "BTTLastUpdatedAt" : 1681741572.1111741,
-          "BTTTriggerType" : 119,
-          "BTTTriggerTypeDescription" : "Scroll Up (modifier key needed)",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : 29,
-          "BTTPredefinedActionName" : "Brightness Down",
-          "BTTUUID" : "787F8EDC-DF18-4FAB-A329-DCE60E6EAD1D",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTRequiredModifierKeys" : 524288,
-          "BTTOrder" : 1,
-          "BTTGestureNotes" : "Scroll Up (modifier key needed)",
-          "BTTTriggerConfig" : {
-            "BTTNoTouchTimeout" : 0,
-            "BTTGestureForceFeedbackPattern" : 1
-          }
-        },
-        {
-          "BTTLastUpdatedAt" : 1681741572.1021519,
-          "BTTTriggerType" : 117,
-          "BTTTriggerTypeDescription" : "Rotate Left",
-          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : 199,
-          "BTTPredefinedActionName" : "Volume Down (Small Step)",
-          "BTTUUID" : "9532D4C3-35A2-4459-B11B-2B31E7DEC90B",
-          "BTTEnabled" : 1,
-          "BTTEnabled2" : 1,
-          "BTTOrder" : 3,
-          "BTTGestureNotes" : "Rotate Left"
-        },
-        {
-          "BTTLastUpdatedAt" : 1681741572.102298,
+          "BTTLastUpdatedAt" : 1729839489.376369,
           "BTTTriggerType" : 630,
           "BTTTriggerTypeDescription" : "Group",
           "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -79,7 +61,7 @@
           "BTTAutoAdaptToKeyboardLayout" : 0,
           "BTTAdditionalActions" : [
             {
-              "BTTLastUpdatedAt" : 1698154644.712945,
+              "BTTLastUpdatedAt" : 1729839570.436182,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -103,7 +85,7 @@
               "BTTGestureNotes" : "Terminal (MacBook keyboard)"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.107657,
+              "BTTLastUpdatedAt" : 1729839570.436161,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -127,14 +109,14 @@
               "BTTGestureNotes" : "VS Code (MacBook keyboard)"
             },
             {
-              "BTTLastUpdatedAt" : 1718001458.949204,
+              "BTTLastUpdatedAt" : 1729839570.4361539,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
               "BTTPredefinedActionType" : 177,
               "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
               "BTTGenericActionConfig2" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":true,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
-              "BTTAppToShowOrHide" : "\/Applications\/Notion.app",
+              "BTTAppToShowOrHide" : "\/Applications\/Obsidian.app",
               "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":true,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
               "BTTAdditionalConfiguration" : "1179658",
               "BTTKeyboardShortcutKeyboardType" : 12951,
@@ -148,10 +130,96 @@
               "BTTShortcutModifierKeys" : 1179648,
               "BTTOrder" : 2,
               "BTTAutoAdaptToKeyboardLayout" : 0,
-              "BTTGestureNotes" : "Bear (MacBook keyboard)"
+              "BTTGestureNotes" : "Obsidian (MacBook keyboard)"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.1079512,
+              "BTTLastUpdatedAt" : 1729839570.4361959,
+              "BTTTriggerType" : 0,
+              "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
+              "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+              "BTTPredefinedActionType" : 366,
+              "BTTPredefinedActionName" : "Empty Placeholder",
+              "BTTAdditionalConfiguration" : "1572904",
+              "BTTKeyboardShortcutKeyboardType" : 0,
+              "BTTUUID" : "D550CF88-49F2-48DA-9F6B-44E400FFBA7B",
+              "BTTTriggerOnDown" : 1,
+              "BTTNotesInsteadOfDescription" : 1,
+              "BTTLayoutIndependentChar" : "SPACE",
+              "BTTEnabled" : 1,
+              "BTTEnabled2" : 1,
+              "BTTShortcutKeyCode" : 49,
+              "BTTShortcutModifierKeys" : 1572864,
+              "BTTOrder" : 3,
+              "BTTAutoAdaptToKeyboardLayout" : 0,
+              "BTTAdditionalActions" : [
+                {
+                  "BTTLastUpdatedAt" : 1719902563.76176,
+                  "BTTTriggerType" : -1,
+                  "BTTTriggerParentUUID" : "D550CF88-49F2-48DA-9F6B-44E400FFBA7B",
+                  "BTTIsPureAction" : true,
+                  "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+                  "BTTPredefinedActionType" : 177,
+                  "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+                  "BTTGenericActionConfig2" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
+                  "BTTAppToShowOrHide" : "\/Applications\/Todoist.app",
+                  "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
+                  "BTTKeyboardShortcutKeyboardType" : 0,
+                  "BTTUUID" : "40F3F6BB-B910-48B8-A7A7-513446579890",
+                  "BTTEnabled" : 1,
+                  "BTTEnabled2" : 1,
+                  "BTTShortcutKeyCode" : -1,
+                  "BTTShortcutModifierKeys" : -1,
+                  "BTTOrder" : 3,
+                  "BTTAutoAdaptToKeyboardLayout" : 0
+                }
+              ],
+              "BTTGestureNotes" : "Todoist (MacBook keyboard)"
+            },
+            {
+              "BTTLastUpdatedAt" : 1729839579.9386349,
+              "BTTTriggerType" : 0,
+              "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
+              "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+              "BTTPredefinedActionType" : 366,
+              "BTTPredefinedActionName" : "Empty Placeholder",
+              "BTTAdditionalConfiguration" : "1179658",
+              "BTTKeyboardShortcutKeyboardType" : 0,
+              "BTTUUID" : "423D2DEF-A029-4B97-933F-091CEC65FBEF",
+              "BTTTriggerOnDown" : 1,
+              "BTTNotesInsteadOfDescription" : 1,
+              "BTTLayoutIndependentChar" : "a",
+              "BTTEnabled" : 1,
+              "BTTEnabled2" : 1,
+              "BTTShortcutKeyCode" : 0,
+              "BTTShortcutModifierKeys" : 1179648,
+              "BTTOrder" : 4,
+              "BTTAutoAdaptToKeyboardLayout" : 0,
+              "BTTAdditionalActions" : [
+                {
+                  "BTTLastUpdatedAt" : 1729839530.7085681,
+                  "BTTTriggerType" : -1,
+                  "BTTTriggerParentUUID" : "423D2DEF-A029-4B97-933F-091CEC65FBEF",
+                  "BTTIsPureAction" : true,
+                  "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+                  "BTTPredefinedActionType" : 177,
+                  "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
+                  "BTTGenericActionConfig2" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
+                  "BTTAppToShowOrHide" : "\/Applications\/Arc.app",
+                  "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
+                  "BTTKeyboardShortcutKeyboardType" : 0,
+                  "BTTUUID" : "09239604-42D8-486F-9AD0-3CCA305970F2",
+                  "BTTEnabled" : 1,
+                  "BTTEnabled2" : 1,
+                  "BTTShortcutKeyCode" : -1,
+                  "BTTShortcutModifierKeys" : -1,
+                  "BTTOrder" : 1,
+                  "BTTAutoAdaptToKeyboardLayout" : 0
+                }
+              ],
+              "BTTGestureNotes" : "Arc (MacBook keyboard)"
+            },
+            {
+              "BTTLastUpdatedAt" : 1729839570.4362111,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -170,12 +238,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 13,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 3,
+              "BTTOrder" : 5,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Chrome"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.1080918,
+              "BTTLastUpdatedAt" : 1729839570.4361429,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -194,12 +262,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 3,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 4,
+              "BTTOrder" : 6,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Firefox"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.1082349,
+              "BTTLastUpdatedAt" : 1729839570.4361711,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -218,12 +286,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 0,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 5,
+              "BTTOrder" : 7,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Teams"
             },
             {
-              "BTTLastUpdatedAt" : 1698154612.890985,
+              "BTTLastUpdatedAt" : 1729839570.436202,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -242,12 +310,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 15,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 6,
+              "BTTOrder" : 8,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Terminal"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.108495,
+              "BTTLastUpdatedAt" : 1729839570.436177,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -266,12 +334,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 1,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 7,
+              "BTTOrder" : 9,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "VS Code"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.1086359,
+              "BTTLastUpdatedAt" : 1729839570.4362211,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -290,12 +358,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 17,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 8,
+              "BTTOrder" : 10,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Bear"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.1087761,
+              "BTTLastUpdatedAt" : 1729839570.4361491,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -314,12 +382,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 7,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 9,
+              "BTTOrder" : 11,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Discord"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.1089149,
+              "BTTLastUpdatedAt" : 1729839570.436228,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -338,12 +406,12 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 8,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 10,
+              "BTTOrder" : 12,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Spotify"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.109056,
+              "BTTLastUpdatedAt" : 1729839570.436166,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -362,20 +430,20 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 2,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 11,
+              "BTTOrder" : 13,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Mail"
             },
             {
-              "BTTLastUpdatedAt" : 1681741572.10919,
+              "BTTLastUpdatedAt" : 1729839570.436188,
               "BTTTriggerType" : 0,
               "BTTTriggerParentUUID" : "91449AB6-183F-40D0-BC20-5E789654648F",
               "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
               "BTTPredefinedActionType" : 177,
               "BTTPredefinedActionName" : "Show \/ Hide Specific Application",
-              "BTTGenericActionConfig2" : "{\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAllWindows\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+              "BTTGenericActionConfig2" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
               "BTTAppToShowOrHide" : "\/Applications\/Notion.app",
-              "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAllWindows\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyShow\":false}",
+              "BTTShowHideAppConfig" : "{\"BTTShowHideSpecificAppMoveToSpace\":\"BTTShowHideSpecificAppHiddenToCurrentSpace\",\"BTTShowHideSpecificAppOnlyShow\":false,\"BTTShowHideSpecificAppOnlyHide\":false,\"BTTShowHideSpecificAffectedWindow\":\"BTTShowHideSpecificAppAffectLastUsedWindow\",\"BTTShowHideSpecificMinimizeInstead\":false,\"BTTShowHideSpecificAppRegex\":\"\",\"BTTShowHideSpecificAppOnlyTreatActiveAsVisible\":true,\"BTTShowHideSpecificAppOnlyIfRunning\":false,\"BTTShowHideSpecificAppCMDN\":false,\"BTTShowHideSpecificAppMoveToCurrentSpace\":false,\"BTTShowHideSpecificAppMoveAllToCurrentSpace\":false}",
               "BTTAdditionalConfiguration" : "1966123",
               "BTTKeyboardShortcutKeyboardType" : 7505,
               "BTTUUID" : "1BDC0886-14AE-43F7-A7E8-DA6A61248CEF",
@@ -386,7 +454,7 @@
               "BTTEnabled2" : 1,
               "BTTShortcutKeyCode" : 6,
               "BTTShortcutModifierKeys" : 1966080,
-              "BTTOrder" : 12,
+              "BTTOrder" : 14,
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTGestureNotes" : "Notion"
             }
@@ -394,6 +462,19 @@
           "BTTIconData" : "iVBORw0KGgoAAAANSUhEUgAAAIAAAACAEAYAAACTrr2IAAAMP2lDQ1BJQ0MgUHJvZmlsZQAASImVVwdYU8kWnluSkEBoAQSkhN4EkRpASggt9N5EJSQBQokxEFTs6KKCaxcL2NBVEQUrzYIidhbF3hcLKsq6WLArb1JA133le_N9c+e__5z5z5lzZ+69A4DacY5IlIeqA5AvLBTHBvvTk1NS6aSnAAMjARUoAw0Ot0DEjI4OB7AMtX8v764DRNpesZdq_bP_vxYNHr+ACwASDXEGr4CbD_FBAPAqrkhcCABRyptNKRRJMaxASwwDhHihFGfJcZUUZ8jxXplNfCwL4nYAlFQ4HHEWAKqXIE8v4mZBDdV+iB2FPIEQADU6xD75+ZN4EKdDbA1tRBBL9RkZP+hk_U0zY1iTw8kaxvK5yIpSgKBAlMeZ9n+m43+X_DzJkA9LWFWyxSGx0jnDvN3MnRQmxSoQ9wkzIqMg1oT4g4Ans4cYpWRLQhLk9qgBt4AFcwZ0IHbkcQLCIDaAOEiYFxmu4DMyBUFsiOEKQacKCtnxEOtCvJBfEBinsNksnhSr8IU2ZIpZTAV_liOW+ZX6ui_JTWAq9F9n89kKfUy1ODs+CWIKxOZFgsRIiFUhdijIjQtT2IwtzmZFDtmIJbHS+M0hjuULg_3l+lhRpjgoVmFfll8wNF9sc7aAHanA+wuz40Pk+cHauRxZ_HAu2CW+kJkwpMMvSA4fmguPHxAonzv2jC9MiFPofBAV+sfKx+IUUV60wh435ecFS3lTiF0KiuIUY_HEQrgg5fp4pqgwOl4eJ16cwwmNlseDLwPhgAUCAB1IYM0Ak0AOEHT2NfbBO3lPEOAAMcgCfGCvYIZGJMl6hPAaB4rBnxDxQcHwOH9ZLx8UQf7rMCu_2oNMWW+RbEQueAJxPggDefBeIhslHPaWCB5DRvAP7xxYuTDePFil_f+eH2K_M0zIhCsYyZBHutqQJTGQGEAMIQYRbXB93Af3wsPh1Q9WJ5yBewzN47s94Qmhi_CQcI3QTbg1UVAi_inKCNAN9YMUucj4MRe4JdR0xf1xb6gOlXEdXB_Y4y7QDxP3hZ5dIctSxC3NCv0n7b_N4IenobAjO5JR8giyH9n655GqtqquwyrSXP+YH3msGcP5Zg33_Oyf9UP2ebAN+9kSW4gdwM5gJ7Bz2BGsEdCxVqwJ68COSvHw6nosW11D3mJl8eRCHcE__A09WWkmCxxrHXsdv8j7CvlTpe9owJokmiYWZGUX0pnwi8Cns4Vch1F0J0cnZwCk3xf56+tNjOy7geh0fOfm_QGAd+vg4ODh71xoKwD73OH2b_7OWTPgp0MZgLPNXIm4SM7h0gsBviXU4E7TA0bADFjD+TgBN+AF_EAgCAVRIB6kgAkw+my4zsVgCpgB5oJSUA6WgdVgPdgEtoKdYA_YDxrBEXACnAYXwCVwDdyBq6cHvAD94B34jCAICaEiNEQPMUYsEDvECWEgPkggEo7EIilIOpKFCBEJMgOZh5QjK5D1yBakBtmHNCMnkHNIF3ILeYD0Iq+RTyiGqqBaqCFqiY5GGSgTDUPj0fFoFjoZLUbno0vQtWg1uhttQE+gF9BraDf6Ah3AAKaM6WAmmD3GwFhYFJaKZWJibBZWhlVg1Vgd1gKf8xWsG+vDPuJEnIbTcXu4gkPwBJyLT8Zn4Yvx9fhOvAFvx6_gD_B+_BuBSjAg2BE8CWxCMiGLMIVQSqggbCccIpyCe6mH8I5IJOoQrYjucC+mEHOI04mLiRuI9cTjxC7iI+IAiUTSI9mRvElRJA6pkFRKWkfaTWolXSb1kD4oKSsZKzkpBSmlKgmVSpQqlHYpHVO6rPRU6TNZnWxB9iRHkXnkaeSl5G3kFvJFcg_5M0WDYkXxpsRTcihzKWspdZRTlLuUN8rKyqbKHsoxygLlOcprlfcqn1V+oPxRRVPFVoWlkqYiUVmiskPluMotlTdUKtWS6kdNpRZSl1BrqCep96kfVGmqDqpsVZ7qbNVK1QbVy6ov1chqFmpMtQlqxWoVagfULqr1qZPVLdVZ6hz1WeqV6s3qN9QHNGgaYzSiNPI1Fmvs0jin8UyTpGmpGajJ05yvuVXzpOYjGkYzo7FoXNo82jbaKVqPFlHLSoutlaNVrrVHq1OrX1tT20U7UXuqdqX2Ue1uHUzHUoetk6ezVGe_znWdTyMMRzBH8EcsGlE34vKI97ojdf10+bpluvW613Q_6dH1AvVy9ZbrNerd08f1bfVj9Kfob9Q_pd83Umuk10juyLKR+0feNkANbA1iDaYbbDXoMBgwNDIMNhQZrjM8adhnpGPkZ5RjtMromFGvMc3Yx1hgvMq41fg5XZvOpOfR19Lb6f0mBiYhJhKTLSadJp9NrUwTTEtM603vmVHMGGaZZqvM2sz6zY3NI8xnmNea37YgWzAssi3WWJyxeG9pZZlkucCy0fKZla4V26rYqtbqrjXV2td6snW19VUbog3DJtdmg80lW9TW1TbbttL2oh1q52YnsNtg1zWKMMpjlHBU9agb9ir2TPsi+1r7Bw46DuEOJQ6NDi9Hm49OHb189JnR3xxdHfMctzneGaM5JnRMyZiWMa+dbJ24TpVOV52pzkHOs52bnF+52LnwXTa63HSluUa4LnBtc_3q5u4mdqtz63U3d093r3K_wdBiRDMWM856EDz8PWZ7HPH46OnmWei53_MvL3uvXK9dXs_GWo3lj9029pG3qTfHe4t3tw_dJ91ns0+3r4kvx7fa96GfmR_Pb7vfU6YNM4e5m_nS39Ff7H_I_z3LkzWTdTwACwgOKAvoDNQMTAhcH3g_yDQoK6g2qD_YNXh68PEQQkhYyPKQG2xDNpddw+4PdQ+dGdoephIWF7Y+7GG4bbg4vCUCjQiNWBlxN9IiUhjZGAWi2FEro+5FW0VPjj4cQ4yJjqmMeRI7JnZG7Jk4WtzEuF1x7+L945fG30mwTpAktCWqJaYl1iS+TwpIWpHUnTw6eWbyhRT9FEFKUyopNTF1e+rAuMBxq8f1pLmmlaZdH281fur4cxP0J+RNODpRbSJn4oF0QnpS+q70L5woTjVnIIOdUZXRz2Vx13Bf8Px4q3i9fG_+Cv7TTO_MFZnPsryzVmb1ZvtmV2T3CViC9YJXOSE5m3Le50bl7sgdzEvKq89Xyk_PbxZqCnOF7ZOMJk2d1CWyE5WKuid7Tl49uV8cJt5egBSML2gq1II_8h0Sa8kvkgdFPkWVRR+mJE45MFVjqnBqxzTbaYumPS0OKv5tOj6dO71thsmMuTMezGTO3DILmZUxq2222ez5s3vmBM_ZOZcyN3fu7yWOJStK3s5Lmtcy33D+nPmPfgn+pbZUtVRcemOB14JNC_GFgoWdi5wXrVv0rYxXdr7csbyi_Mti7uLzv475de2vg0syl3QudVu6cRlxmXDZ9eW+y3eu0FhRvOLRyoiVDavoq8pWvV09cfW5CpeKTWsoayRruteGr21aZ75u2bov67PXX6v0r6yvMqhaVPV+A2_D5Y1+G+s2GW4q3_Rps2DzzS3BWxqqLasrthK3Fm19si1x25nfGL_VbNffXr796w7hju6dsTvba9xranYZ7Fpai9ZKant3p+2+tCdgT1Odfd2Wep368r1gr2Tv833p+67vD9vfdoBxoO6gxcGqQ7RDZQ1Iw7SG_sbsxu6mlKau5tDmthavlkOHHQ7vOGJypPKo9tGlxyjH5h8bbC1uHTguOt53IuvEo7aJbXdOJp+82h7T3nkq7NTZ00GnT55hnmk96332yDnPc83nGecbL7hdaOhw7Tj0u+vvhzrdOhsuul9suuRxqaVrbNexy76XT1wJuHL6KvvqhWuR17quJ1y_eSPtRvdN3s1nt_JuvbpddPvznTl3CXfL7qnfq7hvcL_6D5s_6rvduo8+CHjQ8TDu4Z1H3EcvHhc8_tIz_wn1ScVT46c1z5yeHekN6r30fNzznheiF5_7Sv_U+LPqpfXLg3_5_dXRn9zf80r8avD14jd6b3a8dXnbNhA9cP9d_rvP78s+6H3Y+ZHx8cynpE9PP0_5Qvqy9qvN15ZvYd_uDuYPDoo4Yo7sVwCDFc3MBOD1DgCoKQDQ4PmMMk5+_pMVRH5mlSHwn7D8jCgrbgDUwf_3mD74d3MDgL3b4PEL6qulARBNBSDeA6DOzsN16KwmO1dKCxGeAzZHf83IzwD_psjPnD_E_XMLpKou4Of2X8l5fFFxXHzQAAAAbGVYSWZNTQAqAAAACAAEARoABQAAAAEAAAA+ARsABQAAAAEAAABGASgAAwAAAAEAAgAAh2kABAAAAAEAAABOAAAAAAAAAJAAAAABAAAAkAAAAAEAAqACAAQAAAABAAAAgKADAAQAAAABAAAAgAAAAAAipO1xAAAACXBIWXMAABYlAAAWJQFJUiTwAAApOklEQVR4Ae2de3gdV3mvZ++ty9bNkmzZlmXFmoAhCckDzqWJKQFPmgRMuMRAgNBSPIFCE0pPwvNwWmhpPbT0adrSEnrSNucU8CRAcVsOGAg0Jw31JDiQhBziQMiNJB7Z8l1OJEuypK19OQfe36dg2Yov2VvX0R_fu37fWjOz1jez1qy5aLbjJH9JBJIIJBFIIpBEIIlAEoEkAkkEkggkEUgikEQgiUASgSQCSQSSCCQRSCKQRCCJQBKBJAJJBJIIJBFIIpBEIIlAEoEkAkkEkggkEUgikEQgiUASgSQCSQSSCMzCCKRmYZ3ncpVvpXFVW2H6NlhTDVP_Bas_LH0VrLpFuh1mqqS1ntTnpT8mutBZJRq2kSjF4o2w+GboXAwLbcrfC_PrpDfBsZth8TKYG1X+B2Be9XZ+B53Y6YqADpTp2nyy3SMjYB2_Yz3+xh_BV6ijNn4X3aWOWHcRetm7YTaEi11Y_X3Y6MHM9TAbwdQaaLa0ndSIyhX+Ej34VZjbAnsDOPI3cLcHh1fC7hE4+Gn4qAaWwdvRezQA5JGJnbYIJANAZUN_L6uv1hk4_Tp03RMw8yDMaj_UNKBPuxk2AscVTXc9h6NO_mViVlwsauLg2HKZCeUmTgBLylf_dQrSg2JOtPVZuRr5h1WvVAsOW+6w8gc_Q6JKM4ecBoyRHvwFDXTDZ6CLD0CbUTiXohNbrghMPALKtd5kPb+MQPU1BMJ9A2zZDF+nDrBoI3o1cJrEJQGJqhBaB0tH6OoApjxo5VIu2jq6E6HTIXR8aU_aFQ0xiWIkRyjtSYsFF12KYd6TjuBYAIsetIEj76P3x_CQeJ+H7r0E3tMO+2+E3Rrpxh5DJ7ZcEdCZp1yrm_PrsXjpAE29mhbXroEZFzZ+EmaHYdeZsDUL3RJcBBxXbPJJtEZwvCMjHcdTIjKHGEzQE6U_wRFN0BNk2rRPYlzHaAsD6sRtIaRsnTigRTUeOo2Kyw7Fqc+lQG4THJF_6NPoghYc7UeXHoKO_E5eOsEkEUhN4k_cx45Ap9w6IOtuQp9_F1wcw7ddCds8eFYMs9J10plIfuCkpDOhHL44VxDQkIIPSx4cjmHRtIseDuCjwOkNSWz+Jtx_NXxIl0zD2i+O_E4P+YmdLAKnOpRPtr655te1enUbDatSx26+GN1wB+zqhUvA+Bl9kYejQ7SpvIpNDn_yrFmdE1D78ZlNjLZLH7tkacbt5CISh33YKLpIp+5MEvu0fwZjdP9TsPA9ONYJnVeJCZIInEgEqg9S6qwArtHU8rYt6Du74A5NXQ_IPyz_qPwl6ZLphL8M3HHjobiNbiHOh7fDAxsU9_XwP5QfrkG_LgvPGIHV34GJnRiB+T4DWKmAPAkzb4dNOqPUX4Re8RHYfh90n4NLQvl9WB1CJxYNE7X5E75wBBS3iTOnuoDFxlw4KNqlVZf2U1YDwaFbKDfcCAc0IyjciXb0dOao_absuYv5fg+gyK6tOQRbPfhbAez8BrzCg83AafZJVInVMdqmsFIJKh0Blw2MaTv5gER_dCS_HaN3XQL_5XHYp4E+9120s0KcN5hvM4Bb2bP2wk2VHsst0QDQpjNG15WU63wIdriwMYJ2s84J0YmdpgjEbNfed6iO0FkXNnjQlbYBu0M3b2u_Rv6BD8P8OeJHoHOtOGcxz2YAVR9kT9qbdksvQH_0h_LH8OwI2pSyXv5UiH_8cZxkghkWgYj6FD14OIb2tOGRAL1b_pv2ofedCffkYf4ROHftXJ8BdLPral4Psz+Hyx+EHdrRXRG6PYbNIbQzCyqxsyYCHjW19xcaXXRtDDsjaIf_ilbpdth_IRz5PZj7TejYNaBkghkegZozqODZLfDyEG4pwSe64NBGmJO_tAZ93LvUVj7hLwM24+Ol_Wr_0zC0gf385Hp49xa4NoavdGHNP8G5Z20InCMtS51FQ2qHYb1eZu9chT7Nh53b4RJpe0HHzhjJzTziM+dsRItsZmf3BNpj_Bkfdj0M0zpx9DyNPqz+Mno6uqQZJSqx0x4Bu_mzei9VuWob_JFGeHteP6oBoCCWtlBuxp_BSkk9fxGBsu0n7fdiF3G19zZ2bEQ_oHhfhXRWuyTsn7fknsWY7TOAXcS+5n2wfhR23gdXuLAjgm3S9thu_B6o_JRK7LyJgEdLUzG042JJhE6HcIVmAk4f+smPQRs4knsExGPKbc2lbPJsPdd9Q4x+YAvsWQ_HumCxBO3_3st2JrH1JvxlgGdtXLfrOBHtuOnRfv3RFvKvWAdn_z2C8ZeyadCMt7dSw6rFsK4NvkIjdNdq9JuAo2JOdYjD_k_dsREdd2KTCBABHRd2nKRuwG2Xlqk+9MP6H5HiLeg934YFPXUqfgbt2AtGkgleZATsOf6Krazo1brWv2c9+mmN3HYtV5ROzvjEZ9aemUvTVH8dPzZztOPqqY3UJ1L+RdeiO_UCUdWsOcHM9HsAKwms8yS0N_fsBZ7lem677Hryl8Sw2oepCM45q3YVQ1rWLxY89IjouOgscKpCEgtcmPah48FSDHM+zAfwUAiLMUy5MBNBO94zHnr8sArRs9a61DylBli77H9ACjEZHbrnlNfx2Oviz38Lztz_NbAWqZ4zDur49q6+vbJrb+51qeN3+NS8TkwF6DlnI1pUEvtc9D+HcPfn4APASa0jsVp62RYSH4hhawTtAM8F6Ic9uEf8fCvaBpqspsJt8l9_JflLXdgZwZl+eFHLE7dptatB7PRZ9qPfgN0u_KNPwH1XwNw9cOb9r8EM30P233mtMQG0d_U7fhfdLn+1i56zZ3ya55TUzlyE43AMd94qAkduJ6X9226vtn6KAv3rYU0I64BjA8DuCEePB7u7Yd+bYXYEDgVwfzOs9uAycYYfXlT2ZKzaldYyNtNsd3Hklb_oc+jREB58PdRrKYgZYWf4TUD78Mb6DxGtNfoK7aU3oW0qZgee48+IqFasEmPbWPXPA_ikzsQ360z8kz_Df0hH6JCH7n4N7PkObFsLD2r5havQB9bBDQ_DOz8KY00hDn0Z3d8CB3REF7+J3jcKz4thndaLmns249OmBa7owfQdcMUQfOxxOJKDM8fOtCH6CUJjX+Cx_8fvHMNv_51n_6RTbZGMLDHHGdC+ggsVFmdoH3roMHT+RLQztWTNxSR29cOUCw_E0Kb4+zQQ9Hr4c6+ExQehI+bOQQ_pODp8E7r0nMr54lxFRMPsOLTjsjPEn1d+3f9ED50Oxy6AzvnitGGGDQDW8Vf+DyJiH+K4QlPMDhd_fQjnm7Wp54KAljd7MPO_YeouWAKOo5tTJgc+Sepf1cEXiI9ciz8fwl2j8JB1_Br0RJv+DTwtfw+bteG0P7Hk_ND1Lu18fQB3+_BOXULtaEE_cx20ARw1HdaOqOnY9i+2aQNQJxWwb+4t0QHZ7uJX_3caI3QqhPPNpmJaXOuJEWzcChuegam_hRNt8R_xPNcOD1wFezQQ7LoBndP3EYp2F_tr+B0Ppu6BVSrXHKBbPJgWUfPHpkPa2ujCZnHpTeglMcy8Bjo67sf7gdxTh+keAHQgOptocrMO5A88hv6AppLNPjrlQTsQpeYNMj5NXaoWuy6JS1dBbz+s01QT9bwt6kxuZ_Z9LyXvv34M774TDg8_v8yvplJ_hmr4a7jYh2_RTcU3x+gGETWPrE9b0zFsAc77HyJxzWdh883K0HHvWD+Qe94g9U6aWqcz0UvvQNvHNh_fgs7pAEteZCEeFodnN6D_YiP8YB9sWQvtTF2uAbNKM7ZOnblevZnt_LQLPicWVB+r53yl_dPZI9uJz3fXwJdEMNsDU5fDqbfaoVO_YbZoP6hxvq5N7fPaZ8bkt_uwWhqVWItAU0jq6hjuiOA9Z8K8ztRDOnOXXof_VG1jI0tedRm0T6d1aKa2QCtOn+oG5thyNR4NelkEm8QLNUPrjvE_tBKOgCm0VVO4rWNsKuPiXBzDJcCpi0hUhzCxx45AOsC_0IX2EGDhJ9BDN8GR22EenLj9V4pWDcLsf8KO9XC5C2tCmPZgYhWBGOrKy6n30Et8aPsro5mv8xT+qbPTPFTbT2jZL+kYGxWgqQvE7NyS7b4FAfXv8OG7vgrfEcIG3axDnbi1jt_5bZZ5+SZ4RQwvF+uRiT1OBBoCCrytdCQb7J7AcZYvf7YdQeVf87HXeC9u+9HMrKaqbR7+RQG0myioxE4aAZ+ctGhnmmVawF79rdbjPLvZeqI3nTKa2rfdyAqXrIN2d7vJRacjmNgXjkAmJr9NXByis8CpPkuJ74lzDdbxX6YzyWXbaOF2TSntv62SX9IhLid78yy_keX2roH3bYenr4JVt8DxgUByMizWcjdr_9yu9Q5uZInSBnG7WEr4iwhMut+6iM_oRvjMFmhPcVa66PGBAFlBO8X3ANK_TltadCC2qmnZ9STsDObEykhwchGIKF7UUsaSXWNufuHVpd5CfvYh2KCBepEuKVpD_OMzNA_t+GKCF45ATLYd53U+umUd7ANO+udK6HG4VAUwxZcAdXfThtd64hpYF8HEvrgIDLksf7sn6h39Q9L5FvzODeIEWMe_8GtkvHotXBTDBh8WxFyEdjwxwUlFwI7716ofWL+wfnJSKzulwlM8A8g8SC3bvi+q0plTqnyykBMQg0IMR8Xdl6B3+3DsCui8XDSsVOJJWHUtbF8N2zbDQ5+F6QguBI69+mozuSk+n6gWsxcWzzafNgyqKen7lOgUK4aqiq35mCvOqkGr_5lsV6WyvhIJTioC1vH3eyy2M4abdQDtHEEP2bUA8nmrjm_fW1i4m6yrNsDqZnhzCubU099wJXpZDK9yYRNI7AlGIKtyGm_H781O3VeHKz1kf54WVq2FNXqRxA6UJh9_KoKJPbkIFDzKH4zgAfG5G9EDl8HiJM_p0hoYFujU06wTQl3ActU+3K97CLv2onfq0mJ3gB4FTiFSIhATvGAE7F5KY0ixJg_WPA7HPy12M7r8tsIDQJWuJZeJnRrq7EWI1ogmZcLyN20+rHFAcbvtU7T2Nt1jefZd6PFfvX3dsaPR2IH_rXfBtevgLhV_zCOxrx3u1LXq19+L_vq5sBs4vS4JG5jkTjBJBDIRGfZYcKmHXr4KtivOVZ9El99W+BIgdStVbvyIqBZUhSTGr_19ZSR4wQiUYrJzARyS3iNtHNOM66hPUOlAyhxg+dr74XIftm6Hoy4cvATa+sbuQffrewMNOn4OqHy9R35rDMf3LzKxEyMQ4LA4VYfoRo2oDRegU6+FzrvFsqHCM4DaLmp6dnwka1x0Yk8uAtbxfxKz3AM+vPcO+CN1_FG9Coz3eWsdv+338XXdCNdtgVf4sNfO7C3osb+HJb3sn_uQyr0E3qbyXzodPRDBxJ5cBKxfnL2N5Yw16kcnt7YTKV3pGYDOGI3fpTKNqlM6UsITE7xwBAKy8x7c68M9wBn8FImR1XJMgsw3yFj0arg4hnbmrw3QxX6Yd6FjU9DH0SW58+8jsedqWCP_UEiiMYA10ikXndhjR8D6RaMuAcb7y13HLv_ivRWeAVR_mCp29YnbYXUAE3ucCChOBVFhdL70TZb78lnw0AkeIE16Jfi9a1jut8W2CJ2NYf2rRB2I9nVhvM_bkWWk798ENd479_vohz2Yk0YldrIIVClOK7RfVniUrLpqsiVerL_SMwCdGereQUXrVN9U+GIrPj+WL3q0c1Dsj9H7PwEPbIaFApxoUwp4zYXkNGyFHSFU_x3_vYCij79etKcBaZ3pyX3eljSjGJZr4Msk9l4Ka2N4tg9thuFIOy7+xBKBtAfrXRE46YNKlB0VHgDshzw6FlFz3XR2qqKyt2ROrvBwQLP+I4ZxBJ+4HPbq5lD+KfREax3_bA0YXTpTvzag5LII2pnfidGrQtgCnJpYCZuTSk6EDQC3XUNOly4lzvPQ2QBmgONIm5zvtKcCy1wiMaqAZJ5WYqVYNlR4AEi51NQOsKwqbn7JBBaBkEQxhjlxV4i2N_yG_wCdPxuOW+uxPp7MX8Olj8J2+ZsCtJ3hUY6TcUk1B9BWV38OurYW5nLQ_ukF5TiF00j1fhvWaYf3R+jGEC6IYYWvQNnILLIpl8paPzGmy97xLSgVHgAynWxoSSRquxlPiQRHRMA6vk317Xn8v3dTbKf21+DLj1jseeGTzISw9Q64_jHoyr9AdAL8ZqtjUq9wYStwVinRqhHhUa1v1E5RKpfXDKHnLThGzoTf6YJdEXwTcI4zoVCp+YMqj7YudaFdWmX0ONA+x05uOWyFBwD7THX12VS2WnVOReWo_NxbRyGgTc_GsDeUdmGfdPEH6Ik2fSeexjbYrFPI0gBtd_3TMXqiTclRo_x6H0e7BoARDQBP_C8V_BcxFN8N85LDPyax6yeweiMcjWC9B9M+HL83IDnvENHi6lAEjvMPSpR9xKz0AKC7l3UX0YA6tSMZAGzPHslBF_1VMb4EvX8EDqsjlb6OnmjrNTV_ve4JdK2jxJkRXCRWe2hHWuooLIhxXRPAbvGnf4ce1Qyj4KOdm0Rh8DCJr90FT3sP_I0A2gykVXp8IFD2fEPao8V1kQic9BuVKDsqPAA411LjzGdFa0BgiXlOj_aPufBwDHefC_cEcPxFnD9Aj9u1pFLfgtU_gMtUoGMLiawHbQZ2vI6vxR27WbdYjuGQRLM2MBChB98Ki2Dc2kylT8eBPYXoDSjS4MMF0vP+noDikImJi8Xf+Qja0YArVQZUOOJplzpmVVVjqgxVnwursI7_jE9rHg3g99bCexbC4TPgRGsdv_FJctp1gLxTHV9PX53GeOKSJ6arXMqd5sMzpNfuRV8WwzoNQKjnrc1UhjUw7b+MvE06ADb56MEAznebcolAXXgkU6vR5beVngGsosopT1QLTJ_omUiLzR1ENCUfwv3SewP0ofvhUAu0T2+hnreZD5Fu9eCidrjwStgSwrQHT9qGLGGHSTZAd8RQVxzjjwmHz8NfXAGdzbB0Hxz7N7hb_mrdWzjs4W+IYY20I4137lvrF3aJbCfKlN0ELHsIbM+WfcXJCo8ZgQhvSexXoS9+k0QsR_9WlROdbSo4AU2343iPB91vwGXXw0YfpmPouOIpwtb3rpgV7HDhlrfB4jlw4FFpMG7tF4fujnB1qJz9spCNGy9Tfs34kkmiMhGo9ADwINUuhaJaYR3ARji5px8eVRgLYCmGRRe+2BmLrW_UY33PabV7QxL71dELmgE49hxI5ZyrSaR1aVCtqfeiDfhbQ1j0YE5E_X8bjadOLOFSLBXDEnAW+CQWGgP0oK7xhtSO4o_xmy39MamhTdB+blxXFE5tiH+5WPTRp2w9lkyH0I43e9x50vFgNRWz1i+O6i_qR05buTdd4QGgqKnf8AEqbsdzVYxOuXCmWOv4sUeNRkNoN7uKEfpU7aiW_7nHGvZeAreths_eDXOPQOelomAdf8Ef4WhdApd0wQUq96hLIh3JcYqwDlMTs4IarWdFRKLFhe_SjKP7U+jPr4R94HlrPf1qXP13wI0Xw_YArvdhSwRP1VrHb3BZQ20AXxLC8ZuiyGm3pZgqDPsicOwSSrKMqPAA4NxMXQt_KFrVAyVCc0wPi9r+IW1+OCKxw7Q4IBbFU8WoFozPJXHgBnj4XTBnI+SEjq_FjkLxFlzP_RCmXHjQgykRdfJ2fADQojUBCVuvxa8pwr8whFnNYOzz1mM6DpxLyXd6YOFeuN+FxTNh91fhUQMI7hO2aZVsEOtCEk0erBdtRpP28U+bDdhyIRKB41xniXLT9nC516v1dbaR2PR70JW_PSSRieWYJvSFbPiLMdx5CfxuCAfWwqIL7aaW1Emj1MkiYyEsaCo_uBVdPAwntTpz2kwgs5OSzWtgRgOCo3q_6FftVrLe1ONa_yZtrxEu1Pau2YC2qesX9qEPqL7ddeixx+C4_b+kqjXFtR8iaZJ+0a_AXsb606pno_TaEfynPQQ_GMMXO+NgLadu81rULglj6avfSWKX4i53GVBVhnW8wCpKCvhYTKExlS15Skwz8qqHvWO_81YqtCuCQy6cMVYd0GYiRnv3fryedsYdd5QnYb823P_XrG_oAvisC2siuPB0WAJOj2Y2YxoAnb3KOB_acWFU_1ShF4Ebj1y2oR694zyY1kzMOt6RpadBeWxzzBXB828Cmi4bKzwAFHqo6f4PQMXfWRaiK7x5NvICdsQnc2sLjHUkjFz_AgvN46zSn9J4+7Xh3DPoW94DF38cvu85aAfy069Fj6yFdjPTLgXkrTiGP8omtj4Ne7S_h_2Kb_qENpCPKKYJlGMsVGymXuEeWIpp0IgrAsf8ktOHmE0Xdea3M6rzW9NXpRm95Yja2c+M5_UG4MGf4LfDqclVOQ829sOhf4PD18DSn8Mps49ouz8TbcNnWGJ6af1iYn8pPqV6rSx3_WyPlXu9Wl9+HYndHrS7yHlpvNNna322fYHYpqrc_W4Sh_9OjgTHjEBRO_TQK8mufxZWhdI+_HWdefdqpvUDldOVAYWmwGb_ko38murtaptZ3XR0fDmmCQWPDe9xReAUDipRdlR4ACjpmnV4JTUf1tSwFJW9Jae0QjtQO1wWt6nWsn9ED+oasqj8490EtJtgxTtYfry8j06J6b3K1wApNXuh46hV19Z1AU2pi2CHzvjW_up78I9cCEt281NnaLxH27SuIRsvJi+tGUXVfehUOGEZxddehGpYS_5pfbBDNyky3oTlpkkWIzZ8OBZbYdH66Tno8llbcfnWeMSa7PFP9wjulM4AY8ERxaZNNLts+jofDsXwjTowhi5CD8hfrEVPZgs_JKfvVbCoAS+zAZ3eAhf40sdZH6Vmj61fT11fGcOsD5dL92xE_+A6mMvC0f+CJTCptY7_TnX8RSFFO66H1XYm1xrSmmI0aT82qNx5LgUaxJYA7UTiNCEfsGF7n6Jb9cjfWKkKVXgAKF5GxQc_LaodRe2ISjXrRNebDii5MIINMVwRwmHpyd4DKCl_1Og6v_wb8GHRg3Zg2fbqIvy1LmwGTjokkQrkcMVZAhvPLI41ARVPR9CubVvb0YMBPLgNFsCkNrWCrGwEGx+CK1xY60GzaSWaxLqQxJIAWn3H44172qwdL4ObqcKgamJ+55ZyV63CA0BulAo_qh1sM71cudtxquvzWDCl5e2AOFvaLlWKrhwTMBLj+HEIe6Tt+_i9iq_9PHd9H+Uu_hzs1IavW49eCJyqgEQqhLPFWkeq8alxKoYl4GSk3xHgiK+Bm94PD90BJ7O5G8h5Ig9HTofvc+HiGE606QhPyofj9UM6jmeJ6WUuZvs_uwRKOrn70eW3OkDLv2LWWNLjv8Hb0YOfgXkfFkKYEZ0APeXWY4vqj44NBEfVR+VKLuVtZD6EdJ4LSBx8UHwcljw4_HfwQA2s08CYehW6OpbfhakQzhVb69OSDnFsAzq7GA49Bgvfgc7HRKGoKf2he3EcUvxKmgmkPfy2nZQ03l+x7q+kpzMZsPGCC8eAM6SBbujjOIofVsYfimVDumxrOuaK8lfh3iP2bEbvj+GzISz4cKZb6_j2fLvXo8ZfvFV8I+y_B5Zugc6Z0P4b7t5fR9+teDzmo7eHcEwaNXesXRq8OaJNV7rwJT1wqebqmTehJ9rc2_E8_Br4gAaAe320xl1nNETPdGsdvzegpns9uMuXVhwKX0CX31aVf5VHrPF3UHk5cytJHIqhXVu3umhHfqkZh6Jq1B+SsDP+_rehe3VTq3BABbeKhjtIlHTRXxpRhg9TkbQnzjGkYxrUFMIWcfG56MMfg72vhxPvCZR24h_9NTj4FNz9UlgTQxugsy7aiUTTktONouoz4FGTgRDmPggLdvMCWQFb6QFgQpVHenDc58G9yrdrt4q3V9s7VQwFLLk5hvHn4PZz4HN_CSf7oY7ad5N__rXQPROeo6nt0gBd48KZPiCqlieOiKI1HlwEnPeFJGIX3ngaPPh+OJkduI2cL+VgVzu8UJcEtRHatjfT4jkSU78felDSsX6Ct5J2igeAwgU0pvca2FiCRQ+Oj9SS046QGthInYvRu1T_3R569N9g4U_guHWV0iVBVRa9TAPAMuXXBfhrgDPTDlSr1oumqzXEsCqAy3yYc2HjMji4T_7VsLQdmi28ltRBnTHrP44+FMEFAazyYRrMGFvwqEqvCw+mYOFJWHmbqfwmfnULpd9GjfwUHuqGl6+CjR6cKbbYR00OuXCXKnajdtQDt+AYeBqWvqIChp+QqLkCLjkN_tHP4Rq1e3mEznhwvlg7_Ja00OJWNfyxe0nUaYp_4F_Rhc+ogFA6m8Th34Vj4rL70H0RtN+mrFmHnim2T_v_n86lRg_7cM9bYWEAVs5O8Qyg+ABN6fuS2A6HNRPIRegaH073mbDkUY+86mP1O6SbfQNfI7+oMzrqeZvWTYMFg_jshzoW++hFLsz4cL7ZlEeLs6KdAJb14R_dBqsapDdB5wZRZ_yCZM4nYTOAQx66GMFpty41sHoO++g+tbd_L7rwKHR0r0iqApjiAWDsk7Sh+7fhmLb_aIw+7MOXhXB8Soyccmt3_W0gtpnA6KepytjjqtLVx65a43n43_rfYNcG+BIfLozhfDvz0+qjbVOI730u7Jb+sY6b0TPx52+C4_9VKFnwSTwbwAU6sRSk8U6ftY7_hEsduiP49Cjc_QmY3worb9UBK78hbWENHJMc1sjX+1kcjT58iQun3frUIB3Dqgg2PiXqudPwn6OdENZ8Azb9PeyM4PL1sDaAGRcmVvGIYZsLRwLpv4Kjt8Dn2qD9M5L9BF2tjue6VeRnXwVtpoGaPltw2XZvDA9Ij5yFzjfDqbNTPQBMaNnQp3Fsvgu6ytelnWM3x+SeclTFbHK5C2tD+FZNRXcE6Hs+Au0m4KvU8Zf7+K_eApdEsDGEM+6mp6o1XahSXDpUgUbx2sdI7GyBX_4kHHocLtbxs+xG9Buvh8s9WO9CR1pqyjHos8mvd8MYOIOdSkw5pnkAKOylxfuvhnWa4g3rDDrm4q8GU393PGTDFqY6D31aDNMB3KEChTzaBc4ycaG4QEyLCSZEIERbvO3egPWP9JXkuzEcUsHFWfRSFy4K4QIx7aKn3Gq7uYAtD8dwfz880AcLmuGgptKmpnJjR28r9RZ82Ydgh6Z2N38W3RXBlSGsjuF02WLElgcCmPehHuM745cAIX47ozW76Iz8Vs6Rn9zEToxAKcBjHSfvoe2eTNFHV7kw48EW0fR43APyp8rmQrb0ZAS7Xfj7dXD3NTC3Gk58zIl3Llsb2rfSyKUhDLvglhI8vAGWNory2+_TJ0zi8osIzJjjQMfp4S72y11b4OfFJb+Dnn5rc63pqokuAexubn9ERb6gmyJdmiqdofrVuiTSoRy+mCCJwEyIQEglii7UDN_5op7zd+tS99Aq8qffTvcAoGtm+zhk4XuEZL8GhqwC1a+RtMElv9GHybU0cUjszIhA0aMedrOvL0DvC+F+Hxb+D5x+O8N60NgFhOSZ6+AjGjFvD9F3BvBwDBObRGAmReBwSG3+I4DfjuHP3gtjdfyx5BKAgBxlz8cz_p6A7u7uugN_lQeHI1gLnOpQiUhMkERgKiLgsZGxCA67cFcofhMOvwaObYSOUXL6MN2XAMdp+YBmKF9pp2DHp+ArN0B7HOf66PHHhcjEJhGoaASs4+8I2cxOF35Zz393fRw9+Kdw5tkZdgkwMUCFO_H06fHgwc3o3TG0e4i2I0ouficSEyQRKGcEIlZWjOGYD_cGcHcIDw7Cvmth4QcwsScbgQmPCbOvYAXnq+e_TbdZn1yP_1AJFrvgjHkspHol9Znd+6Wwnfr3b4CPb4RXRvDcEZi147aIdlaKMw4z_BLAng44FxO5_Dlw_1poU_49zeh0DGtDWB3BlAsdo2SCJAIvGIGYXJtZ5lV4v0dij_RucV8vibH_lGOGz7BVy1mEW6hrlQaCJs0ALlcTPqDHht3rcQxrhC5uQSdn4CQOv4jAiR4HxRLxGu2CO9fAD62Db9gGF9TAzGPQ+Yw44zHTZwATA6hrKhuJR+1mi0fBlAaEvdI2I1gqXRWrHHCSGYEFIuEvIxATB_V7J++iD4Rwr7jzdPTum+DIf4cFvcCGSmzlI_A0m6ipg60xfIdG5o+KPRq5R9aTX9wOT_RMkJSbH_Gy48KOk50aCW4IaP_bxYUuuuaPoXNQnHWY7dcoLyXiOf03jv0G4a51+He0wN0u3B9Be2pQlE6eGhCXeWe1_+0a3_77dL9LJPaEcEcMe3Q8Df07OvcX0FkkzjrMtkuA4wR4VFOzbTrDP5FlgYF+eFo3_EOtZ4nYJM728VDNSHCCESj5FByM4QEP_tW5cOfd8P4IDv0etN8nQM1mO8eO+NLP2RkjukkwpAGhpw9_dwh7XLjHgyM+tJmBIz_exM6ZCGi_2vN7TRwdu5vfo4baiz2mB3+LDPs9Avt9gjkTlznbkAn3CJruo6UXtcN1Ghju2YJ+Utd8Oenk2p+4zJU45NbTnse1fyPpK2_A_2sjcIG+3DL7r_Fpz+R2js0AjmroxHsEaymx6yq482rY7cEeUeOCY1NDe5_DCSmX2BkeAe0ne2NvMKC+fRHcCRxdETo71PF36Tn+0P0UmP3X+GropMhMmjMnM4p6Pnv4Jpp3UPdA7tOR8H09zknfQf5+nRlOa0FXuzAVQWeVmGBmRCCkGkUXDmr_fddHb90M_2YfvF33hro_hh7QSD_+46R6FZ3cuWjVAeZi047Zpo_gtfcI8t9C77sCjoaw+0yYj+BuHzZ7sCWGGR_WuNCJxQRTEwGXzeQCWBD7kE6fdHeEo0c39Xa1oPt1PIwdRjvniQnmSQRctXMHzKjjtzSil30cXu7C926DW9bAn+lacrSEnivXyrOlHaMbiftP10P79NZvagS49Cb87b2wWQO+_WCLsxW_0ynOO8y3GcDEHRzLsQIWJHX8OPYUwd4nGNE9g_giCg57sMmFdWJDgM7EsEY6mSEQjxO2LiVzPixID0oPx_i7XbgXOPbprf0+joO6tBv_f3yVSzDfB4DjHAETv1DUvYYFnvwabHgCXpiCSy6Bb4tgWwxfHkC9Mo5I7HEjYB3_CZeivTG07+rb57V_1I5_6CvQvrlnn94a_wKPZgyUSqzjJAPACx8F55M9plJjmiqObMKR1aVCd4y2S0lJZyjC3+DBOmOMTkcwC5x0TCITyRGIcwVqj53Jiy4NG1H7Cp60C4d9aNfwB+SPcTv2XX37Sa3RpcqYiKTjT4yItM5ck+Qm7okRsAFTZ5zUWRSo3Q4zbbDhZpjtgSsj2LIOvk7l20L0auA0StvMIeMpY46goPb1BjRowIP3AafXJ3HP6bBvG3xaBUZWoQevggW9gz9_v6tPHE7d2gF96muYX0vm1Vx17JJoZzDnKfKHLoDVese4+h3oPhVcoYF3UKtrF5tCEiMerA6hXTqkI3RVANM+tBlD2pU_hqlIWnQCtDbvpDy02VJEqmSOgETRhSUP2hm8FEv7sBjCfCDtwVwMbSa1N0QPiDHS6VXFYsXJfi3XzvBT_9t5qticRdWcbdmMaNiY7hXs0BkrrTP_M7p3kH6Qama1H2oeRy_Xma7xbvQrTH8O7X4W1sdwmZj10W3AqQlJNMYwE8AscFLSkk5JWv3PKYTkDMg_5qEPSI+Ku2P8w9Kx6jkY4v_ZJXDoBrirFeaug_bqdkGP4ezHMgs_IX_qfi2X7c0fmwwAld3Xb2D1duZz1KFHbaudloBVLTD_XtignlyvYrrl4DjqQOa39VnHtpmFzRxsOXvvy8qltF6DnfnHBwBlDIjWjgPStt3d0sOqVyxt9TA99HEy9r4JFjRDUvGj0Xy0K_GUMwITj4ByrjtZ18lH4GYWqfokTP0DrKmF6QhWfVpaA0Vms3Q7zPRCe86dvl1aHdAuFY56k3Eb5Yqxyms7xQvQpdWw0Cat7RSuRRc3wbzqX7wYnetW_odh4QvQ0YxAKkESgSQCSQSSCCQRSCKQRCCJQBKBJAJJBJIIJBFIIpBEIIlAEoEkAkkEkggkEUgikEQgiUASgSQCSQSSCCQRSCKQRCCJQBKBJAJJBJIIJBFIIpBEIIlAEoEkAkkEkgicSAT+H3_ffHGzofA4AAAAAElFTkSuQmCC",
           "BTTAdditionalData" : "eyJCVFRJY29uQ29uZmlnSWNvbkhlaWdodCI6MjUsIkJUVEljb25Db25maWdJY29uSWNvbldpZHRoIjoyNX0=",
           "BTTGestureNotes" : "Group"
+        },
+        {
+          "BTTLastUpdatedAt" : 1681741572.1021519,
+          "BTTTriggerType" : 117,
+          "BTTTriggerTypeDescription" : "Rotate Left",
+          "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
+          "BTTPredefinedActionType" : 199,
+          "BTTPredefinedActionName" : "Volume Down (Small Step)",
+          "BTTUUID" : "9532D4C3-35A2-4459-B11B-2B31E7DEC90B",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTOrder" : 3,
+          "BTTGestureNotes" : "Rotate Left"
         },
         {
           "BTTLastUpdatedAt" : 1698213034.6858029,
@@ -472,7 +553,7 @@
                   "BTTAutoAdaptToKeyboardLayout" : 0
                 },
                 {
-                  "BTTLastUpdatedAt" : 1717602487.1370192,
+                  "BTTLastUpdatedAt" : 1729838226.420017,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "C3E2256C-E781-487F-8E5A-BDFEAB35F10E",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -494,7 +575,7 @@
                   "BTTAutoAdaptToKeyboardLayout" : 0
                 },
                 {
-                  "BTTLastUpdatedAt" : 1717602487.137037,
+                  "BTTLastUpdatedAt" : 1729838226.420023,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "C3E2256C-E781-487F-8E5A-BDFEAB35F10E",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -769,7 +850,7 @@
                   "BTTAutoAdaptToKeyboardLayout" : 0
                 },
                 {
-                  "BTTLastUpdatedAt" : 1717602487.1370349,
+                  "BTTLastUpdatedAt" : 1729838226.420007,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "C3E2256C-E781-487F-8E5A-BDFEAB35F10E",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -939,7 +1020,7 @@
                   "BTTAutoAdaptToKeyboardLayout" : 0
                 },
                 {
-                  "BTTLastUpdatedAt" : 1717602487.137023,
+                  "BTTLastUpdatedAt" : 1729838226.420013,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "C3E2256C-E781-487F-8E5A-BDFEAB35F10E",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1046,7 +1127,7 @@
               "BTTAdditionalData" : "eyJCVFRJY29uQ29uZmlnSWNvbkhlaWdodCI6MjUsIkJUVEljb25Db25maWdJY29uSWNvbldpZHRoIjoyNX0="
             },
             {
-              "BTTLastUpdatedAt" : 1718009228.679554,
+              "BTTLastUpdatedAt" : 1718200673.6592879,
               "BTTTriggerType" : 630,
               "BTTTriggerTypeDescription" : "Group",
               "BTTTriggerParentUUID" : "AFFBEA91-C868-4977-B8C0-94206574D405",
@@ -1065,7 +1146,7 @@
               "BTTAutoAdaptToKeyboardLayout" : 0,
               "BTTAdditionalActions" : [
                 {
-                  "BTTLastUpdatedAt" : 1718008791.346766,
+                  "BTTLastUpdatedAt" : 1718200673.6593561,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1103,7 +1184,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.346643,
+                  "BTTLastUpdatedAt" : 1718200673.6593461,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1141,7 +1222,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3467081,
+                  "BTTLastUpdatedAt" : 1718200673.6593399,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1179,7 +1260,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.346796,
+                  "BTTLastUpdatedAt" : 1718200673.6594319,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1217,7 +1298,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3466921,
+                  "BTTLastUpdatedAt" : 1718200673.6594219,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1255,7 +1336,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3467259,
+                  "BTTLastUpdatedAt" : 1718200673.6594272,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1293,7 +1374,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.346662,
+                  "BTTLastUpdatedAt" : 1718200673.6593671,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1331,7 +1412,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3467169,
+                  "BTTLastUpdatedAt" : 1718200673.659277,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1369,7 +1450,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3466811,
+                  "BTTLastUpdatedAt" : 1718200673.659384,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1407,7 +1488,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3468552,
+                  "BTTLastUpdatedAt" : 1729838226.4200201,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1449,7 +1530,7 @@
                   }
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3467431,
+                  "BTTLastUpdatedAt" : 1729838226.41998,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1487,7 +1568,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3466721,
+                  "BTTLastUpdatedAt" : 1729838226.4200039,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1525,7 +1606,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.346735,
+                  "BTTLastUpdatedAt" : 1729838226.4200292,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1563,7 +1644,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.346839,
+                  "BTTLastUpdatedAt" : 1729838226.4200249,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1601,7 +1682,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008791.3467,
+                  "BTTLastUpdatedAt" : 1729838226.420027,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1639,7 +1720,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718009183.78174,
+                  "BTTLastUpdatedAt" : 1729838226.4200101,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1654,7 +1735,7 @@
                   "BTTEnabled2" : 1,
                   "BTTShortcutKeyCode" : 126,
                   "BTTShortcutModifierKeys" : 9175040,
-                  "BTTOrder" : 17,
+                  "BTTOrder" : 15,
                   "BTTAutoAdaptToKeyboardLayout" : 0,
                   "BTTAdditionalActions" : [
                     {
@@ -1677,7 +1758,7 @@
                   ]
                 },
                 {
-                  "BTTLastUpdatedAt" : 1718008797.174504,
+                  "BTTLastUpdatedAt" : 1718200673.659256,
                   "BTTTriggerType" : 0,
                   "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
                   "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
@@ -1692,7 +1773,7 @@
                   "BTTEnabled2" : 1,
                   "BTTShortcutKeyCode" : 51,
                   "BTTShortcutModifierKeys" : 786432,
-                  "BTTOrder" : 18,
+                  "BTTOrder" : 16,
                   "BTTAutoAdaptToKeyboardLayout" : 0,
                   "BTTAdditionalActions" : [
                     {
@@ -1713,6 +1794,47 @@
                       "BTTAutoAdaptToKeyboardLayout" : 0
                     }
                   ]
+                },
+                {
+                  "BTTLastUpdatedAt" : 1729838226.4200149,
+                  "BTTTriggerType" : 0,
+                  "BTTTriggerParentUUID" : "D5A33058-E245-4E85-AA5C-78415C6B5265",
+                  "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+                  "BTTPredefinedActionType" : 366,
+                  "BTTPredefinedActionName" : "Empty Placeholder",
+                  "BTTAdditionalConfiguration" : "9175073",
+                  "BTTKeyboardShortcutKeyboardType" : 0,
+                  "BTTUUID" : "003D7B46-E6FB-45F8-A92A-9E3C0765CA62",
+                  "BTTTriggerOnDown" : 1,
+                  "BTTLayoutIndependentChar" : "DOWN",
+                  "BTTEnabled" : 1,
+                  "BTTEnabled2" : 1,
+                  "BTTShortcutKeyCode" : 125,
+                  "BTTShortcutModifierKeys" : 9175040,
+                  "BTTOrder" : 17,
+                  "BTTAutoAdaptToKeyboardLayout" : 0,
+                  "BTTAdditionalActions" : [
+                    {
+                      "BTTLastUpdatedAt" : 1718201163.318717,
+                      "BTTTriggerType" : -1,
+                      "BTTTriggerParentUUID" : "003D7B46-E6FB-45F8-A92A-9E3C0765CA62",
+                      "BTTIsPureAction" : true,
+                      "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+                      "BTTPredefinedActionType" : 251,
+                      "BTTPredefinedActionName" : "Custom Move \/ Resize Window",
+                      "BTTGenericActionConfig2" : "Almost maximize",
+                      "BTTActionMoveResizeConfig" : "{\"BTTOriginDisplay\":2,\"BTTChangeYOriginRelative\":1,\"BTTScreenOrigin\":0,\"BTTDirectionToMove\":1,\"BTTChangeHeightRelative\":1,\"BTTScreensToMove\":0,\"BTTNewYAbsolute\":0,\"BTTNewXRelative\":0,\"BTTOriginToUse\":0,\"BTTNewWindowWidthRelative\":92,\"BTTChangeWindowWidth\":true,\"BTTNewXAbsolute\":0,\"BTTChangeYOrigin\":1,\"BTTUseVisibleFrame\":false,\"BTTCareForStageManager\":false,\"BTTChangeXOriginRelative\":0,\"BTTChangeWidthRelative\":1,\"BTTActiveOrHoveredWindow\":0,\"BTTNewWindowHeightRelative\":83,\"BTTChangeWindowHeight\":true,\"BTTNewYRelative\":2,\"BTTChangeXOrigin\":1}",
+                      "BTTActionMoveResizeName" : "Almost maximize",
+                      "BTTKeyboardShortcutKeyboardType" : 0,
+                      "BTTUUID" : "CEB26B31-02E8-4E60-8168-2519642FB375",
+                      "BTTEnabled" : 1,
+                      "BTTEnabled2" : 1,
+                      "BTTShortcutKeyCode" : -1,
+                      "BTTShortcutModifierKeys" : -1,
+                      "BTTOrder" : 43,
+                      "BTTAutoAdaptToKeyboardLayout" : 0
+                    }
+                  ]
                 }
               ],
               "BTTAdditionalData" : "eyJCVFRJY29uQ29uZmlnSWNvbkhlaWdodCI6MjUsIkJUVEljb25Db25maWdJY29uSWNvbldpZHRoIjoyNX0="
@@ -1721,6 +1843,24 @@
           "BTTIconData" : "TU0AKgAAQAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGAAAAGwAAACZAAAAxgAAAOoAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_AAAAMwAAAC3AAAAbAAAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAogAAAPwAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD8AAAAmQAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABIAAAA8AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAADzAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABjAAAA_AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAABvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABLAAAA_AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_AAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAA6gAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAADwAAAAGwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlgAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADwAAAPYAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD8AAAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAADMAAABIAAAAkwAAAOQAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAHgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAZgAAAOcAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAtwAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA5AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACQAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAPkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAGwAAAC3AAAAzAAAAPwAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_AAAAMwAAAC3AAAAbAAAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAALEAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAYAAAAmQAAAPwAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD8AAAAmQAAABgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPAAAA5AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAABIAAAA8wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAADzAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGYAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAABvAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAABvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAA4QAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAABOAAAA_AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA5AAAAFcAAAAbAAAAGwAAAFcAAADkAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_AAAAE4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIcAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAbAAAA8AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA2AAAABIAAAAAAAAAAAAAAAAAAAAAAAAAEgAAANUAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAADwAAAAGwAAAAAAAAAAAAAAAAAAAAAAAABFAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAmQAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAFQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAJkAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAHgAAAPwAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD8AAAAHgAAAAAAAAAAAAAAAAAAAAYAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAHgAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAADwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAHgAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAC9AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAFEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAC6AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA5AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAADVAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAASAAAA1QAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA5AAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAPkAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAOQAAABUAAAAGAAAABgAAABUAAAA5AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAPkAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA9gAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAOEAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAC0AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAdQAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_AAAABgAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAKIAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAPMAAAAbAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAPwAAABOAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAPwAAABpAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAOoAAABIAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAAAAAAAAAAAAAAAAAAAAAA9gAAAJkAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAAAAAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA+QAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAAPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA+QAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAOQAAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAUQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABRAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAOQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAC9AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAANUAAAASAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASAAAA1QAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAC6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAeAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA5AAAAFQAAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABgAAABUAAAA5AAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAAeAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACEAAAD8AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_AAAACEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAmQAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAJkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABsAAADzAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAPMAAAAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAATgAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAABOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABvAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAABvAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAE4AAADzAAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAPMAAABOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAJwAAAD8AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_AAAAJwAAAAbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGwAAAGwAAAC3AAAAzAAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAP8AAAD_AAAA_wAAAMwAAAC3AAAAbAAAABsAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABABAAADAAAAAQBAAAABAQADAAAAAQBAAAABAgADAAAABAAAQM4BAwADAAAAAQABAAABBgADAAAAAQACAAABCgADAAAAAQABAAABEQAEAAAAAQAAAAgBEgADAAAAAQABAAABFQADAAAAAQAEAAABFgADAAAAAQBAAAABFwAEAAAAAQAAQAABHAADAAAAAQABAAABKAADAAAAAQACAAABUgADAAAAAQACAAABUwADAAAABAAAQNaHcwAHAAAMSAAAQN4AAAAAAAgACAAIAAgAAQABAAEAAQAADEhMaW5vAhAAAG1udHJSR0IgWFlaIAfOAAIACQAGADEAAGFjc3BNU0ZUAAAAAElFQyBzUkdCAAAAAAAAAAAAAAAAAAD21gABAAAAANMtSFAgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEWNwcnQAAAFQAAAAM2Rlc2MAAAGEAAAAbHd0cHQAAAHwAAAAFGJrcHQAAAIEAAAAFHJYWVoAAAIYAAAAFGdYWVoAAAIsAAAAFGJYWVoAAAJAAAAAFGRtbmQAAAJUAAAAcGRtZGQAAALEAAAAiHZ1ZWQAAANMAAAAhnZpZXcAAAPUAAAAJGx1bWkAAAP4AAAAFG1lYXMAAAQMAAAAJHRlY2gAAAQwAAAADHJUUkMAAAQ8AAAIDGdUUkMAAAQ8AAAIDGJUUkMAAAQ8AAAIDHRleHQAAAAAQ29weXJpZ2h0IChjKSAxOTk4IEhld2xldHQtUGFja2FyZCBDb21wYW55AABkZXNjAAAAAAAAABJzUkdCIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAEnNSR0IgSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABYWVogAAAAAAAA81EAAQAAAAEWzFhZWiAAAAAAAAAAAAAAAAAAAAAAWFlaIAAAAAAAAG+iAAA49QAAA5BYWVogAAAAAAAAYpkAALeFAAAY2lhZWiAAAAAAAAAkoAAAD4QAALbPZGVzYwAAAAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAWSUVDIGh0dHA6Ly93d3cuaWVjLmNoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGRlc2MAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAALklFQyA2MTk2Ni0yLjEgRGVmYXVsdCBSR0IgY29sb3VyIHNwYWNlIC0gc1JHQgAAAAAAAAAAAAAAAAAAAAAAAAAAAABkZXNjAAAAAAAAACxSZWZlcmVuY2UgVmlld2luZyBDb25kaXRpb24gaW4gSUVDNjE5NjYtMi4xAAAAAAAAAAAAAAAsUmVmZXJlbmNlIFZpZXdpbmcgQ29uZGl0aW9uIGluIElFQzYxOTY2LTIuMQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAdmlldwAAAAAAE6T+ABRfLgAQzxQAA+3MAAQTCwADXJ4AAAABWFlaIAAAAAAATAlWAFAAAABXH+dtZWFzAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAACjwAAAAJzaWcgAAAAAENSVCBjdXJ2AAAAAAAABAAAAAAFAAoADwAUABkAHgAjACgALQAyADcAOwBAAEUASgBPAFQAWQBeAGMAaABtAHIAdwB8AIEAhgCLAJAAlQCaAJ8ApACpAK4AsgC3ALwAwQDGAMsA0ADVANsA4ADlAOsA8AD2APsBAQEHAQ0BEwEZAR8BJQErATIBOAE+AUUBTAFSAVkBYAFnAW4BdQF8AYMBiwGSAZoBoQGpAbEBuQHBAckB0QHZAeEB6QHyAfoCAwIMAhQCHQImAi8COAJBAksCVAJdAmcCcQJ6AoQCjgKYAqICrAK2AsECywLVAuAC6wL1AwADCwMWAyEDLQM4A0MDTwNaA2YDcgN+A4oDlgOiA64DugPHA9MD4APsA_kEBgQTBCAELQQ7BEgEVQRjBHEEfgSMBJoEqAS2BMQE0wThBPAE_gUNBRwFKwU6BUkFWAVnBXcFhgWWBaYFtQXFBdUF5QX2BgYGFgYnBjcGSAZZBmoGewaMBp0GrwbABtEG4wb1BwcHGQcrBz0HTwdhB3QHhgeZB6wHvwfSB+UH+AgLCB8IMghGCFoIbgiCCJYIqgi+CNII5wj7CRAJJQk6CU8JZAl5CY8JpAm6Cc8J5Qn7ChEKJwo9ClQKagqBCpgKrgrFCtwK8wsLCyILOQtRC2kLgAuYC7ALyAvhC_kMEgwqDEMMXAx1DI4MpwzADNkM8w0NDSYNQA1aDXQNjg2pDcMN3g34DhMOLg5JDmQOfw6bDrYO0g7uDwkPJQ9BD14Peg+WD7MPzw_sEAkQJhBDEGEQfhCbELkQ1xD1ERMRMRFPEW0RjBGqEckR6BIHEiYSRRJkEoQSoxLDEuMTAxMjE0MTYxODE6QTxRPlFAYUJxRJFGoUixStFM4U8BUSFTQVVhV4FZsVvRXgFgMWJhZJFmwWjxayFtYW+hcdF0EXZReJF64X0hf3GBsYQBhlGIoYrxjVGPoZIBlFGWsZkRm3Gd0aBBoqGlEadxqeGsUa7BsUGzsbYxuKG7Ib2hwCHCocUhx7HKMczBz1HR4dRx1wHZkdwx3sHhYeQB5qHpQevh7pHxMfPh9pH5Qfvx_qIBUgQSBsIJggxCDwIRwhSCF1IaEhziH7IiciVSKCIq8i3SMKIzgjZiOUI8Ij8CQfJE0kfCSrJNolCSU4JWgllyXHJfcmJyZXJocmtyboJxgnSSd6J6sn3CgNKD8ocSiiKNQpBik4KWspnSnQKgIqNSpoKpsqzysCKzYraSudK9EsBSw5LG4soizXLQwtQS12Last4S4WLkwugi63Lu4vJC9aL5Evxy_+MDUwbDCkMNsxEjFKMYIxujHyMioyYzKbMtQzDTNGM38zuDPxNCs0ZTSeNNg1EzVNNYc1wjX9Njc2cjauNuk3JDdgN5w31zgUOFA4jDjIOQU5Qjl_Obw5+To2OnQ6sjrvOy07azuqO+g8JzxlPKQ84z0iPWE9oT3gPiA+YD6gPuA_IT9hP6I_4kAjQGRApkDnQSlBakGsQe5CMEJyQrVC90M6Q31DwEQDREdEikTORRJFVUWaRd5GIkZnRqtG8Ec1R3tHwEgFSEtIkUjXSR1JY0mpSfBKN0p9SsRLDEtTS5pL4kwqTHJMuk0CTUpNk03cTiVObk63TwBPSU+TT91QJ1BxULtRBlFQUZtR5lIxUnxSx1MTU19TqlP2VEJUj1TbVShVdVXCVg9WXFapVvdXRFeSV+BYL1h9WMtZGllpWbhaB1pWWqZa9VtFW5Vb5Vw1XIZc1l0nXXhdyV4aXmxevV8PX2Ffs2AFYFdgqmD8YU9homH1YklinGLwY0Njl2PrZEBklGTpZT1lkmXnZj1mkmboZz1nk2fpaD9olmjsaUNpmmnxakhqn2r3a09rp2v_bFdsr20IbWBtuW4SbmtuxG8eb3hv0XArcIZw4HE6cZVx8HJLcqZzAXNdc7h0FHRwdMx1KHWFdeF2Pnabdvh3VnezeBF4bnjMeSp5iXnnekZ6pXsEe2N7wnwhfIF84X1BfaF+AX5ifsJ_I3+Ef+WAR4CogQqBa4HNgjCCkoL0g1eDuoQdhICE44VHhauGDoZyhteHO4efiASIaYjOiTOJmYn+imSKyoswi5aL_IxjjMqNMY2Yjf+OZo7OjzaPnpAGkG6Q1pE_kaiSEZJ6kuOTTZO2lCCUipT0lV+VyZY0lp+XCpd1l+CYTJi4mSSZkJn8mmia1ZtCm6+cHJyJnPedZJ3SnkCerp8dn4uf+qBpoNihR6G2oiailqMGo3aj5qRWpMelOKWpphqmi6b9p26n4KhSqMSpN6mpqhyqj6sCq3Wr6axcrNCtRK24ri2uoa8Wr4uwALB1sOqxYLHWskuywrM4s660JbSctRO1irYBtnm28Ldot+C4WbjRuUq5wro7urW7LrunvCG8m70VvY++Cr6Evv+_er_1wHDA7MFnwePCX8Lbw1jD1MRRxM7FS8XIxkbGw8dBx7_IPci8yTrJuco4yrfLNsu2zDXMtc01zbXONs62zzfPuNA50LrRPNG+0j_SwdNE08bUSdTL1U7V0dZV1tjXXNfg2GTY6Nls2fHadtr724DcBdyK3RDdlt4c3qLfKd+v4DbgveFE4cziU+Lb42Pj6+Rz5PzlhOYN5pbnH+ep6DLovOlG6dDqW+rl63Dr++yG7RHtnO4o7rTvQO_M8Fjw5fFy8f_yjPMZ86f0NPTC9VD13vZt9vv3ivgZ+Kj5OPnH+lf65_t3_Af8mP0p_br+S_7c_23__w==",
           "BTTAdditionalData" : "eyJCVFRJY29uQ29uZmlnSWNvbkhlaWdodCI6MjUsIkJUVEljb25Db25maWdJY29uSWNvbldpZHRoIjoyNX0=",
           "BTTGestureNotes" : "Group"
+        },
+        {
+          "BTTLastUpdatedAt" : 1681741572.1172881,
+          "BTTTriggerType" : 0,
+          "BTTTriggerClass" : "BTTTriggerTypeKeyboardShortcut",
+          "BTTPredefinedActionType" : 203,
+          "BTTPredefinedActionName" : "Show Clipboard \/ Pasteboard History",
+          "BTTAdditionalConfiguration" : "1966123",
+          "BTTKeyboardShortcutKeyboardType" : 12951,
+          "BTTUUID" : "C43455BE-1E86-4B5C-9C0F-6118B6FF3B4E",
+          "BTTTriggerOnDown" : 1,
+          "BTTLayoutIndependentChar" : "v",
+          "BTTEnabled" : 1,
+          "BTTEnabled2" : 1,
+          "BTTShortcutKeyCode" : 9,
+          "BTTShortcutModifierKeys" : 1966080,
+          "BTTOrder" : 2,
+          "BTTAutoAdaptToKeyboardLayout" : 0
         },
         {
           "BTTLastUpdatedAt" : 1681741572.109391,
@@ -1742,36 +1882,23 @@
           }
         },
         {
-          "BTTLastUpdatedAt" : 1681741572.1016591,
-          "BTTTriggerType" : 118,
-          "BTTTriggerTypeDescription" : "Rotate Right",
+          "BTTLastUpdatedAt" : 1681741572.1111741,
+          "BTTTriggerType" : 119,
+          "BTTTriggerTypeDescription" : "Scroll Up (modifier key needed)",
           "BTTTriggerClass" : "BTTTriggerTypeTouchpadAll",
-          "BTTPredefinedActionType" : 198,
-          "BTTPredefinedActionName" : "Volume Up (Small Step)",
-          "BTTUUID" : "6DCE1A02-0587-42EA-B7B3-395F0CB17A71",
+          "BTTPredefinedActionType" : 29,
+          "BTTPredefinedActionName" : "Brightness Down",
+          "BTTUUID" : "787F8EDC-DF18-4FAB-A329-DCE60E6EAD1D",
           "BTTEnabled" : 1,
           "BTTEnabled2" : 1,
-          "BTTOrder" : 2,
-          "BTTGestureNotes" : "Rotate Right"
+          "BTTRequiredModifierKeys" : 524288,
+          "BTTOrder" : 1,
+          "BTTGestureNotes" : "Scroll Up (modifier key needed)",
+          "BTTTriggerConfig" : {
+            "BTTNoTouchTimeout" : 0,
+            "BTTGestureForceFeedbackPattern" : 1
+          }
         }
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.apple.finder",
-      "BTTAppName" : "Finder",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTTriggers" : [
-
-      ]
-    },
-    {
-      "BTTAppBundleIdentifier" : "com.microsoft.teams",
-      "BTTAppName" : "Microsoft Teams",
-      "BTTAppAutoInvertIcon" : 1,
-      "BTTAppProcessMatchMode" : 2,
-      "BTTAppProcessName" : "Microsoft Teams",
-      "BTTTriggers" : [
-
       ]
     }
   ],
@@ -1786,6 +1913,24 @@
       "BTTDisplaySerialNumber" : "94002",
       "BTTDisplayVendorID" : 7789,
       "BTTDisplaySnappedDragpoints" : [
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+          "BTTSnapAreaColor" : "129.991359, 201.122858, 227.012343, 104.550003",
+          "BTTSnapAreaFrame" : "{{1766, 441.136962890625}, {400, 170}}",
+          "BTTSnapAreaHighlightColor" : "92.625547, 122.647995, 161.664332, 56.099998",
+          "BTTSnapAreaIsInvisible" : 1,
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{1020, 328}, {1800, 1000}}",
+          "BTTSnapAreaBorderWidth" : 3,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "A4CE5F8F-D43A-4AB9-84AF-10F9148B10DA",
+          "BTTSnapAreaShowsForApps" : [
+
+          ]
+        },
         {
           "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
           "BTTSnapAreaPreviewBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
@@ -1825,24 +1970,6 @@
               "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Bear.app",
               "BTTSnapAreaAppName" : "Bear"
             }
-          ]
-        },
-        {
-          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
-          "BTTSnapAreaPreviewBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
-          "BTTSnapAreaColor" : "129.991359, 201.122858, 227.012343, 104.550003",
-          "BTTSnapAreaFrame" : "{{1766, 441.136962890625}, {400, 170}}",
-          "BTTSnapAreaHighlightColor" : "92.625547, 122.647995, 161.664332, 56.099998",
-          "BTTSnapAreaIsInvisible" : 1,
-          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
-          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
-          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
-          "BTTSnapAreaPreviewFrame" : "{{1020, 328}, {1800, 1000}}",
-          "BTTSnapAreaBorderWidth" : 3,
-          "BTTSnapAreaCornerRadius" : 20,
-          "BTTSnapAreaUUID" : "A4CE5F8F-D43A-4AB9-84AF-10F9148B10DA",
-          "BTTSnapAreaShowsForApps" : [
-
           ]
         },
         {
@@ -1869,6 +1996,24 @@
           "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
           "BTTSnapAreaPreviewBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
           "BTTSnapAreaColor" : "129.991359, 201.122858, 227.012343, 104.550003",
+          "BTTSnapAreaFrame" : "{{1766, 441.136962890625}, {400, 170}}",
+          "BTTSnapAreaHighlightColor" : "92.625547, 122.647995, 161.664332, 56.099998",
+          "BTTSnapAreaIsInvisible" : 1,
+          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
+          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
+          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
+          "BTTSnapAreaPreviewFrame" : "{{1020, 328}, {1800, 1000}}",
+          "BTTSnapAreaBorderWidth" : 3,
+          "BTTSnapAreaCornerRadius" : 20,
+          "BTTSnapAreaUUID" : "A4CE5F8F-D43A-4AB9-84AF-10F9148B10DA",
+          "BTTSnapAreaShowsForApps" : [
+
+          ]
+        },
+        {
+          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
+          "BTTSnapAreaPreviewBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
+          "BTTSnapAreaColor" : "129.991359, 201.122858, 227.012343, 104.550003",
           "BTTSnapAreaFrame" : "{{20.360870361328125, 328.58551025390625}, {924.74249267578125, 997.33343505859375}}",
           "BTTSnapAreaHighlightColor" : "92.625547, 122.647995, 161.664332, 56.099998",
           "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
@@ -1904,24 +2049,6 @@
               "BTTSnapAreaAppBundleIdentifier" : "\/Applications\/Bear.app",
               "BTTSnapAreaAppName" : "Bear"
             }
-          ]
-        },
-        {
-          "BTTSnapAreaAnimationDuration" : 0.30000001192092896,
-          "BTTSnapAreaPreviewBorderColor" : "0.000000, 0.000000, 0.000000, 255.000000",
-          "BTTSnapAreaColor" : "129.991359, 201.122858, 227.012343, 104.550003",
-          "BTTSnapAreaFrame" : "{{1766, 441.136962890625}, {400, 170}}",
-          "BTTSnapAreaHighlightColor" : "92.625547, 122.647995, 161.664332, 56.099998",
-          "BTTSnapAreaIsInvisible" : 1,
-          "BTTSnapAreaPictogramDistanceFromLeft" : 0.10000000149011612,
-          "BTTSnapAreaPictogramDistanceFromBottom" : 0.10000000149011612,
-          "BTTSnapAreaPictogramSize" : 0.69999998807907104,
-          "BTTSnapAreaPreviewFrame" : "{{1020, 328}, {1800, 1000}}",
-          "BTTSnapAreaBorderWidth" : 3,
-          "BTTSnapAreaCornerRadius" : 20,
-          "BTTSnapAreaUUID" : "A4CE5F8F-D43A-4AB9-84AF-10F9148B10DA",
-          "BTTSnapAreaShowsForApps" : [
-
           ]
         },
         {
