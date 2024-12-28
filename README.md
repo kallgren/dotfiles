@@ -11,6 +11,8 @@
 3. `brew bundle` (Installs applications listed in [Brewfile](Brewfile))
 4. Configure _BetterTouchTool_, _Monitor Control_ and _Flux_ to run at startup
 
+_(Note: this is not a complete list of applications as of 2024-12-28)_
+
 ### VS Code
 
 1. `ln -s ~/dotfiles/.vscode/settings.json ~/dotfiles/.vscode/keybindings.json ~/Library/Application\ Support/Code/User/`
