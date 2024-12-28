@@ -14,4 +14,12 @@
   "[clojure]": {
     "editor.defaultFormatter": "betterthantomorrow.calva"
   },
+  "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["g", "r"],
+      "commands": ["editor.action.rename"]
+    }
+  ]
 }
