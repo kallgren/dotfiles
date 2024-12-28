@@ -9,7 +9,7 @@
 # ================================= DEFAULTS ================================= "
 
 # Bypass warnings, see https://github.com/ohmyzsh/ohmyzsh/issues/6835
-ZSH_DISABLE_COMPFIX=true
+# ZSH_DISABLE_COMPFIX=true
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -120,6 +120,9 @@ alias gsa='git stash apply'
 alias gl='git log --oneline --graph --decorate --all'
 alias gba='git branch -a' # Use 'git remote prune origin' to remove local branches not on remote (--dry-run arg to test)
 
+# other
+alias hf='history -f | less'
+
 # ================================== PROMPT ================================== "
 
 fpath+=("$(brew --prefix)/share/zsh/site-functions") # Needed since using ZSH shipped with macOS
@@ -127,7 +130,9 @@ fpath+=("$(brew --prefix)/share/zsh/site-functions") # Needed since using ZSH sh
 autoload -U promptinit; promptinit
 prompt pure
 
-# =========================== PATH & other exports ============================ "
+RPROMPT="%F{$prompt_pure_colors[git:branch]}%D{%H:%M:%S}" # (%D{%f/%m})"
+
+# =========================== PATH & other exports =========================== "
 
 export PATH="$HOME/.yarn/bin:$HOME/.config/yarn/global/node_modules/.bin:$PATH"
 
@@ -136,3 +141,10 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export LC_ALL=en_US.UTF-8 # Fix warnings when starting Vim 8.2 installed with Homebrew
+
+# bun completions
+[ -s "/Users/robertkallgren/.bun/_bun" ] && source "/Users/robertkallgren/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
