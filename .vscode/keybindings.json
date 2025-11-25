@@ -107,11 +107,15 @@
     {
         "key": "alt+cmd+b",
         "command": "workbench.action.toggleAuxiliaryBar"
-    }
+    },
     /* Quick Open (same as the default cmd+p) */
     /*{
                 "key": "ctrl+p",
                 "command": "workbench.action.quickOpen"
     }*/
     /* Other */
+    {
+        "key": "alt+d",
+        "command": "git.openChange"
+    }
 ]
