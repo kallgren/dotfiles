@@ -2,29 +2,43 @@
 
 ## Setup
 
+### Clone the repository
+
+You know the drill:
+
 `git clone git@github.com:kallgren/dotfiles.git ~`
 
-### Applications
+### Install applications
 
 1. Install [Homebrew](https://brew.sh/)
 2. `cd ~/dotfiles`
 3. `brew bundle` (Installs applications listed in [Brewfile](Brewfile))
-4. Configure _BetterTouchTool_, _Monitor Control_ and _Flux_ to run at startup
+4. Configure _BetterTouchTool_ and _Flux_ to run at startup
 
-_(Note: this is not a complete list of applications as of 2024-12-28)_
+_(Note: this is not a complete list of applications as of 2025-11-25)_
 
-### VS Code
+### Symlink configs
 
-1. `ln -s ~/dotfiles/.vscode/settings.json ~/dotfiles/.vscode/keybindings.json ~/Library/Application\ Support/Code/User/`
-2. Open up this repository with VS Code and install any relevant recommended extensions
+I handle configs by symlinking with [`GNU Stow`](https://www.gnu.org/software/stow/) (which you just installed through Homebrew).
 
-### Terminal
+> [!NOTE]
+> Specify each desired package individually as not all folders in this repo are meant for stowing
+
+`stow --no-folding zsh tmux vim code`
+
+### Configure applications
+
+#### VS Code extensions
+
+1. Open up this repository with VS Code and install any relevant recommended extensions
+
+#### Terminal
+
 1. Install [Oh My ZSH!](https://ohmyz.sh/)
-2. `ln -s ~/dotfiles/.zshrc ~`
 
-### BetterTouchTool
+#### BetterTouchTool
 
-1. Import _kallgren.bttpreset_
+1. Import _btt/kallgren.bttpreset_
 2. Adjust trackpad rotate gesture settings (for knob-style volume control) (because it is not included in settings export): 
     - _Rotate block time_: 0.01
     - _Set needed rotation amount (degree)_: ~3
@@ -50,7 +64,7 @@ The preset includes:
 12. `mkdir -p ~/.vim/colors && cp ~/dotfiles/colors/kallgren.vim "$_"`
 13. Open and configure iTerm2:
     1. Switch to _Monaco Nerd Font_ installed earlier
-    2. Create separate profiles for the dark and light theme and import the _.itermcolors_ files
+    2. Create separate profiles for the dark and light theme and import the _iterm2/*.itermcolors_ files
     3. Add custom keybindings to toggle between the profiles! (<kbd>Ctrl</kbd> + <kbd>Cmd</kbd> + <kbd>k</kbd>/<kbd>l</kbd>)
 14. Fire up `tmux` + `vim`
 15. Install vim plugins by running `:PluginInstall` inside vim
