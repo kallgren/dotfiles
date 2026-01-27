@@ -25,6 +25,7 @@ I handle configs by symlinking with [`GNU Stow`](https://www.gnu.org/software/st
 > Specify each desired package individually as not all folders in this repo are meant for stowing
 
 `stow --no-folding zsh tmux vim code`
+`stow claude`
 
 ### Configure applications
 
