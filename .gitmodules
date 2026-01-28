@@ -1,0 +1,3 @@
+[submodule "ai-docs"]
+	path = ai-docs
+	url = git@github.com:kallgren/ai-docs.git
