@@ -54,6 +54,17 @@ The preset includes:
 
 - Setup <kbd>Alt</kbd> + <kbd>Tab</kbd> to toggle windows within application
 
+### Folder structure
+
+This is my preferred folder structure for my coding projects.
+
+```
+~/Code/
+├── Work/          # Work related
+├── Personal/      # Personal projects
+└── Throwaway/     # Temporary tests and experiments
+```
+
 ### Legacy iTerm2 + Tmux + Vim setup
 
 1. [iTerm2](https://www.iterm2.com/)
