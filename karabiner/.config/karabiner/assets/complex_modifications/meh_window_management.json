@@ -1,0 +1,67 @@
+{
+  "title": "Meh window management",
+  "rules": [
+    {
+      "description": "Meh-style WM: Meh+UI to Fn+Ctrl+Shift+Arrow Left/Right (macOS native window management)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "u",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": ["fn", "control", "shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "i",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": ["fn", "control", "shift"]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "description": "Meh-style window centre: Meh+Y to Fn+Ctrl+C (macOS native window management)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "y",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [{ "key_code": "c", "modifiers": ["fn", "control"] }]
+        }
+      ]
+    }
+  ]
+}

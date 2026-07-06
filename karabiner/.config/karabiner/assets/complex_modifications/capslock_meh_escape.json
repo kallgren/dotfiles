@@ -1,0 +1,26 @@
+{
+  "title": "Caps Lock to Meh (hold) / Escape (tap)",
+  "rules": [
+    {
+      "description": "Map Caps Lock to Meh when held, Escape when tapped",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "caps_lock",
+            "modifiers": { "optional": ["any"] }
+          },
+          "to": [
+            {
+              "key_code": "left_control",
+              "modifiers": ["left_option", "left_shift"]
+            }
+          ],
+          "to_if_alone": [
+            { "key_code": "escape" }
+          ]
+        }
+      ]
+    }
+  ]
+}

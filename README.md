@@ -1,4 +1,4 @@
-# Kallgren's dotfiles 🙃
+# Kallgren's dotfiles
 
 ## Setup
 
@@ -13,7 +13,7 @@ You know the drill:
 1. Install [Homebrew](https://brew.sh/)
 2. `cd ~/dotfiles`
 3. `brew bundle` (Installs applications listed in [Brewfile](Brewfile))
-4. Configure _BetterTouchTool_ and _Flux_ to run at startup
+4. Configure _Flux_ and any others to run at startup
 
 _(Note: this is not a complete list of applications as of 2025-11-25)_
 
@@ -24,10 +24,38 @@ I handle configs by symlinking with [`GNU Stow`](https://www.gnu.org/software/st
 > [!NOTE]
 > Specify each desired package individually as not all folders in this repo are meant for stowing
 
-`stow --no-folding zsh tmux vim code`
-`stow claude`
+```
+stow --no-folding zsh tmux vim code karabiner
+stow claude
+```
+
+### Setup keyboard and hotkeys
+
+#### Karabiner Elements
+
+1. Open up _Karabiner Elements_ (which you just installed through Homebrew)
+2. Complex modifications -> "Add prefedined rule", and enable the desired ones
+
+#### MacOS System Settings -> Keyboard Shortcuts
+
+##### -> Keyboard
+
+- "Move focus to next window" -> <kbd>Alt</kbd> + <kbd>Tab</kbd>
+
+##### -> App shortcuts -> All Applications:
+
+I prefer these over Raycast window management due to MacOS's animations and "Previous size" feature
+
+- "Left" -> <kbd>Meh</kbd> + <kbd>H</kbd>
+- "Right" -> <kbd>Meh</kbd> + <kbd>L</kbd>
+- "Fill" -> <kbd>Meh</kbd> + <kbd>F</kbd>
+- "Return to Previous Size" -> <kbd>Meh</kbd> + <kbd>J</kbd>
 
 ### Configure applications
+
+#### Raycast
+
+Import my Raycast settings from cloud storage containing hotkeys for apps, clipboard, snippets, etc.
 
 #### VS Code extensions
 
@@ -37,52 +65,14 @@ I handle configs by symlinking with [`GNU Stow`](https://www.gnu.org/software/st
 
 1. Install [Oh My ZSH!](https://ohmyz.sh/)
 
-#### BetterTouchTool
-
-1. Import _btt/kallgren.bttpreset_
-2. Adjust trackpad rotate gesture settings (for knob-style volume control) (because it is not included in settings export): 
-    - _Rotate block time_: 0.01
-    - _Set needed rotation amount (degree)_: ~3
-
-The preset includes:
-- App toggle keybindings (on left hand on my keyboard) for commonly used applications, using <kbd>Hyper</kbd> (<kbd>Shift</kbd> + <kbd>Ctrl</kbd> + <kbd>Option</kbd> + <kbd>Command</kbd>)
-- Window management keybindings (on right hand on my keyboard) using <kbd>Hyper</kbd> with logical placements (exploiting symbol combos to extend options, and using num layer for more complex or specific window configurations, see ZMK config)
-- Touch gestures for volume and brightness control
-- Clipboard history on <kbd>Hyper</kbd> + <kbd>v</kbd>
-
-### macOS
-
-- Setup <kbd>Alt</kbd> + <kbd>Tab</kbd> to toggle windows within application
-
 ### Folder structure
 
 This is my preferred folder structure for my coding projects.
 
 ```
 ~/Code/
-├── Work/          # Work related
-├── Personal/      # Personal projects
-└── Throwaway/     # Temporary tests and experiments
+├── Courses/       # Course related
+├── Hobby/         # Hobby projects
+├── Throwaway/     # Temporary tests and experiments
+└── Work/          # Work related
 ```
-
-### Legacy iTerm2 + Tmux + Vim setup
-
-1. [iTerm2](https://www.iterm2.com/)
-2. [Monaco Nerd Font](https://github.com/taohex/font/blob/master/Monaco%20for%20Powerline%20Nerd%20Font%20Complete.otf)
-6. `brew install vim` (Apple's shipped `vim` version may not have the `termguicolors` feature enabled)
-8. `git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm`
-9. `git clone https://github.com/VundleVim/Vundle.vim.git ~/.vim/bundle/Vundle.vim`
-11. `ln -s ~/dotfiles/.vimrc ~/dotfiles/.tmux.conf ~`
-12. `mkdir -p ~/.vim/colors && cp ~/dotfiles/colors/kallgren.vim "$_"`
-13. Open and configure iTerm2:
-    1. Switch to _Monaco Nerd Font_ installed earlier
-    2. Create separate profiles for the dark and light theme and import the _iterm2/*.itermcolors_ files
-    3. Add custom keybindings to toggle between the profiles! (<kbd>Ctrl</kbd> + <kbd>Cmd</kbd> + <kbd>k</kbd>/<kbd>l</kbd>)
-14. Fire up `tmux` + `vim`
-15. Install vim plugins by running `:PluginInstall` inside vim
-16. Install tmux plugins by pressing _prefix_ (<kbd>Ctrl</kbd> + <kbd>Space</kbd>), <kbd>I</kbd>
-17. Done! ✌️ Switch between the light and dark color themes in vim, tmux and iterm2 at once from within vim with the single key binding <kbd>,</kbd><kbd>b</kbd><kbd>g</kbd>
-
-### Keyboard
-
-- Ferris Sweep: flash [ZMK firmware](https://github.com/kallgren/zmk-config)

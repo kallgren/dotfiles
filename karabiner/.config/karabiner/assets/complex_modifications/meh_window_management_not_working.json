@@ -1,0 +1,71 @@
+{
+  "title": "Parts of Meh window management that I did not get to work",
+  "rules": [
+    {
+      "description": "Meh-style WM: Meh+HL to Fn+Ctrl+Arrow (macOS native window management)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "h",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [{ "key_code": "left_arrow", "modifiers": ["fn", "control"] }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [{ "key_code": "right_arrow", "modifiers": ["fn", "control"] }]
+        }
+      ]
+    },
+    {
+      "description": "Meh-style WM: Hyper+JK to Fn+Ctrl+R/F (macOS native window management)",
+      "manipulators": [
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "j",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [{ "key_code": "r", "modifiers": ["fn", "control"] }]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "k",
+            "modifiers": {
+              "mandatory": [
+                "left_control",
+                "left_option",
+                "left_shift"
+              ]
+            }
+          },
+          "to": [{ "key_code": "f", "modifiers": ["fn", "control"] }]
+        }
+      ]
+    }
+  ]
+}
