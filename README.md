@@ -57,6 +57,10 @@ I prefer these over Raycast window management due to MacOS's animations and "Pre
 
 Import my Raycast settings from cloud storage containing hotkeys for apps, clipboard, snippets, etc.
 
+Add [`raycast/scripts`](raycast/scripts) as a script directory (Raycast Settings -> Extensions -> Scripts) to pick up the script commands in this repo:
+
+- **Send Arc Tab to Todoist & Close** - creates a Todoist task linking the active Arc tab, then closes it. The first run prompts for a Todoist API token (Todoist -> Settings -> Integrations -> Developer) and stores it in the macOS Keychain.
+
 #### VS Code extensions
 
 1. Open up this repository with VS Code and install any relevant recommended extensions
